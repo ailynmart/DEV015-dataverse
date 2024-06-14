@@ -1,156 +1,158 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
+    "id": "aguachile-verde",
+    "name": "Aguachile Verde",
+    "shortDescription": "Mariscos frescos en salsa de chile serrano..",
+    "description": "Este platillo clásico de la costa mexicana combina mariscos frescos con una salsa verde vibrante hecha de chiles serranos, cilantro y jugo de limón. El aguachile verde ofrece una explosión de sabor y un toque picante que es perfectamente refrescante para los días calurosos. Servido con rodajas finas de pepino y cebolla morada, este plato es una experiencia culinaria que estimula los sentidos y deja un regusto picante inolvidable.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "placeOrigen": "Sinaloa",
+      "nivelSpicy": "Alto",
+      "typeOfMeat": "Mariscos",
+      "mainField": "Plato Principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
+    "id": "mole-negro",
+    "name": "Mole Negro",
+    "shortDescription": "Salsa compleja de chiles y especias sobre carne tierna.",
+    "description": "El mole negro es una de las joyas culinarias de Oaxaca. Esta salsa oscura y rica combina chiles chilhuacle, mulato y pasilla con una mezcla de especias como el clavo, la canela y el anís. Se sirve típicamente sobre carne de pollo o cerdo, creando una sinfonía de sabores que balancea el picante, el dulce y el amargo. Cada bocado es una muestra de la complejidad y la profundidad de la cocina mexicana.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "placeOrigen": "Oaxaca",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Pollo ",
+      "mainField": "Plato principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
+    "id": "chiles-en-nogada",
+    "name": "Chiles en Nogada",
+    "shortDescription": "Poblano relleno de picadillo con nogada y granada.",
+    "description": "Los chiles en nogada son un festín para los sentidos y un símbolo de la independencia de México. El plato consiste en chiles poblanos rellenos de picadillo de carne, frutas y especias, cubiertos con una cremosa salsa de nuez (nogada) y adornados con semillas de granada. La combinación de sabores dulces, salados y picantes crea un balance perfecto que hace de cada bocado una celebración de la riqueza culinaria mexicana.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "placeOrigen": "Puebla",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Res",
+      "mainField": "Plato principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
+    "id": "birria-de-res",
+    "name": "Birria de Res",
+    "shortDescription": "Carne de res guisada en salsa de chiles guajillo y ancho.",
+    "description": "La birria de res es un estofado tradicional que se cocina lentamente para lograr una carne jugosa y llena de sabor. Se utiliza una mezcla de chiles guajillo, ancho y de árbol para crear una salsa robusta y picante que penetra la carne, dándole una profundidad de sabor inigualable. Se sirve típicamente con tortillas de maíz frescas, cebolla, cilantro y un toque de limón, haciendo de este platillo un favorito en celebraciones y reuniones.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "placeOrigen": "Jalisco",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Res",
+      "mainField": "Plato principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
+    "id": "pozole-rojo",
+    "name": "Pozole Rojo",
+    "shortDescription": "Sopa de maíz con carne en caldo de chile guajillo.",
+    "description": "El pozole rojo es una sopa tradicional que combina maíz hominy con carne de cerdo en un caldo vibrante hecho de chiles guajillo y ancho. Esta sopa tiene una textura rica y un sabor profundo que resalta con la mezcla de maíz, carne tierna y chiles. Se sirve típicamente con rábano, lechuga, orégano y limón para un contraste fresco y crujiente que complementa el calor del caldo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "placeOrigen": "---",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Cerdo",
+      "mainField": "Sopa, Caldos"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
+    "id": "caldo-tlalpeño",
+    "name": "Caldo Tlalpeño",
+    "shortDescription": "Sopa de pollo con chipotle, garbanzos y aguacate.",
+    "description": "El caldo tlalpeño es una sopa reconfortante que combina pollo tierno con garbanzos en un caldo claro y picante con chipotle. El sabor ahumado del chile chipotle se integra perfectamente con la suavidad del aguacate y la frescura del cilantro, creando una sopa que es tanto nutritiva como deliciosa. Perfecto para días fríos, este caldo ofrece una experiencia cálida y picante que calienta desde el primer sorbo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "placeOrigen": "Tlalpan",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Pollo",
+      "mainField": "Sopa, Caldos"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
+    "id": "menudo",
+    "name": "Menudo",
+    "shortDescription": "Sopa de pancita de res en caldo de chile guajillo.",
+    "description": "El menudo es un platillo popular en la cocina mexicana, especialmente apreciado como cura para la resaca. Consiste en pancita de res cocida en un caldo rico y especiado hecho de chiles guajillo y de árbol. Su textura y sabor robusto se complementan con un toque de orégano y limón. Esta sopa espesa y llena de sabor es un clásico de los fines de semana en muchas regiones de México, conocido por su poder revitalizante.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "placeOrigen": "Norteño",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Res",
+      "mainField": "Sopa, Caldos"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
+    "id": "tostadas-de-tinga",
+    "name": "Tostadas de Tinga",
+    "shortDescription": "Tostadas con tinga de pollo y salsa chipotle.",
+    "description": "Las tostadas de tinga son una delicia mexicana que combina la crujiente textura de la tostada con la tinga de pollo, una preparación donde el pollo se cocina con tomate, cebolla y chile chipotle. La mezcla de sabores ahumados y ligeramente dulces del chipotle se equilibra con la frescura de la lechuga, el queso fresco y un toque de crema. Es una explosión de texturas y sabores en cada bocado, perfecta como entrada o snack",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "placeOrigen": "Puebla",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Pollo",
+      "mainField": "Antojitos, Guarniciones Picantes"
     },
     "extraInfo": {
       "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
+    "id": "sopes",
+    "name": "Sopes",
+    "shortDescription": "Masa gruesa con frijoles, salsa y chile serrano.",
+    "description": "Los sopes son discos de masa gruesa de maíz, ligeramente fritos, que se cubren con una capa de frijoles, salsa (verde o roja) y se adornan con ingredientes como lechuga, queso y crema. La salsa de chile serrano o de árbol añade un toque picante que realza los sabores de los frijoles y la masa. Son una opción versátil y sabrosa, perfecta como entrada o acompañamiento en una comida mexicana.Los sopes son una comida callejera popular en todo México,se pueden personalizar con diferentes tipos de carne o vegetales.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "placeOrigen": "----",
+      "nivelSpicy": "---",
+      "typeOfMeat": "Res",
+      "mainField": "Antojitos, Guarniciones Picantes"
     },
     "extraInfo": {
       "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
+    "id": "tlacoyo-con-salsa-morita",
+    "name": "Tlacoyos con Salsa Morita",
+    "shortDescription": "Masa ovalada rellena con frijoles y salsa morita.",
+    "description": "Los tlacoyos son una especialidad tradicional que se remonta a tiempos prehispánicos. Son tortillas ovaladas y gruesas hechas de masa de maíz, rellenas típicamente con frijoles y servidas con una salsa de chile morita. El chile morita aporta un sabor ahumado y una picantez moderada que complementa perfectamente la suavidad de los frijoles y la textura de la masa. Son una opción deliciosa y auténtica en la cocina mexicana.El chile morita es un jalapeño seco y ahumado, similar al chipotle pero más pequeño",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "placeOrigen": "Region Central",
+      "nivelSpicy": "Moderado",
+      "mainField": "Antojitos, Guarniciones Picantes"
     },
     "extraInfo": {
       "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
