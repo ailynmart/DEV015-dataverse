@@ -7,12 +7,11 @@
   </head>
   <body>
     <script src="main.js" type="module"></script>
+    
     <header>
       <h1>COMIDAS TIPICAS MEXICANAS PICANTES</h1>
     </header>
-    <main> 
-      <h2> MENU </h2>
-    </main>
+
     <nav id="root" > 
       <ul>
         <li>
@@ -20,8 +19,9 @@
         </li>
       </ul>
     </nav>
-    <label for="menú">Selecciona tu pedido</label>
-    <select name="menú" data-testid="selec-filter">
+
+    <label for="filtrar-tipo-de-pedido">FILTAR POR TIPO DE PEDIO</label>
+    <select data-testid="selec-filter" name="tipo">
       <option value="principal">Plato Principal</option>
       <option value="sopas">Sopas y Caldos</option>
       <option value="antojos">Antojitos y Botanas</option>
@@ -30,14 +30,24 @@
       <option value="salsas">Salsas y Guarniciones</option>
     </select>
 
-    <h3> tarjetas </h3>
- 
+    <label for="filtrar-por-nivel-de-picante">FILTRAR POR NIVEL DE PICANTE</label>
+    <select data-testid="selec-filter" name="picante">
+      <option value="alto"> Alto </option>
+      <option value="medio"> Medio</option>
+      <option value="bajo">Bajo</option>
+    </select>
 
+  <label for="ordenar-de-manera"> Ordenar de manera </label>
+  <select data-testid="select-sort" name="alfabetica">
+    <option value="asc">A - Z</option>
+    <option value="desc">Z - A</option>
+    <!-- creo  que debe ir uno en vacio osea que no ordene nada siento que se quedaria en asd o desc una de eso a la fuerza -->
 
-
-
-
-
+  </select>
+    
+    
+    <button data-testid="button clear">Limpiar Orden y Filtros</button>
+   
     <footer> 
       <p> SALA DEV 15 Derechos Reservados &copy; 2024</p>
     </footer>
