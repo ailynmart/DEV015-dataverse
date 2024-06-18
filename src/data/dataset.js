@@ -1,5 +1,6 @@
 export default [
   {
+    //PLATOS PRINCIPALES (10)
     "id": "aguachile-verde",
     "name": "Aguachile Verde",
     "shortDescription": "Mariscos frescos en salsa de chile serrano..",
@@ -158,6 +159,7 @@ export default [
       "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
     }
   },
+  //SOPAS Y CALDOS (3)
   {
     "id": "grace-hopper",
     "name": "Grace Hopper",
@@ -174,6 +176,7 @@ export default [
       "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
     }
   },
+ 
   {
     "id": "margaret-hamilton",
     "name": "Margaret Hamilton",
@@ -204,6 +207,7 @@ export default [
       "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
     }
   },
+  //ANTOJITOS Y BOTANAS (4)
   {
     "id": "shafi-goldwasser",
     "name": "Shafi Goldwasser",
@@ -219,6 +223,7 @@ export default [
       "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
     }
   },
+  
   {
     "id": "chien-shiung-wu",
     "name": "Chien-Shiung Wu",
@@ -267,6 +272,7 @@ export default [
       "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
     }
   },
+  //SALSAS Y GUANICIONES (4)
   {
     "id": "lise-meitner",
     "name": "Lise Meitner",
@@ -283,6 +289,7 @@ export default [
       "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
     }
   },
+  
   {
     "id": "sau-lan-wu",
     "name": "Sau Lan Wu",
@@ -298,6 +305,7 @@ export default [
       "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
     }
   },
+  
   {
     "id": "jocelyn-bell-burnell",
     "name": "Jocelyn Bell Burnell",
@@ -329,6 +337,7 @@ export default [
       "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
     }
   },
+  //POSTRES (2)
   {
     "id": "marie-curie",
     "name": "Marie Curie",
@@ -361,6 +370,7 @@ export default [
       "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
     }
   },
+  //BEBIDAS PICANTES(1)
   {
     "id": "rosalind-franklin",
     "name": "Rosalind Franklin",
