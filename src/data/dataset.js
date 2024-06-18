@@ -80,77 +80,77 @@ export default [
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
+    "id": "Tacos-de-pastor",
+    "name": "Tacos al pastor",
+    "shortDescription": "Tacos al pastor, platillo mexicano con carne de cerdo marinada y asada en trompo, servida en tortillas con piña y cilantro",
+    "description": "Los tacos al pastor son un emblemático platillo mexicano que se originó en la Ciudad de México. Se preparan con carne de cerdo marinada en una mezcla de chiles, achiote, vinagre y especias, y se cocinan en un trompo vertical similar al shawarma. La carne se corta en finas tiras y se sirve en tortillas de maíz calientes, acompañada de piña, cebolla, cilantro y salsa. La combinación de la carne jugosa y especiada con la dulzura de la piña y la frescura de los ingredientes hace de estos tacos una delicia irresistible. Son populares en taquerías y puestos callejeros, ofreciendo una experiencia auténtica de la gastronomía mexicana.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
     "facts": {
       "yearOfBirth": "1850",
       "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "birthPlace": "Mexico, Mexico",
+      "mainField": "Platillo principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
+    "id": "Tacos-de-Pibil",
+    "name": "Tacos de cochinita Pibil",
+    "shortDescription": "Tacos de cochinita pibil, platillo yucateco con cerdo marinado en achiote y naranja agria, cocido lentamente y servido en tortillas.",
+    "description": "Los tacos de cochinita pibil son un tradicional platillo yucateco que destaca por su sabor intenso y su preparación especial. La cochinita pibil se elabora marinando carne de cerdo en una mezcla de achiote, jugo de naranja agria, ajo y especias. Esta mezcla le da a la carne su distintivo color rojo y un sabor profundamente aromático. La carne se envuelve en hojas de plátano y se cocina lentamente, tradicionalmente en un horno subterráneo. Una vez cocida, la carne se desmenuza y se sirve en tortillas de maíz, acompañada de cebolla morada encurtida, salsa de habanero y, a veces, cilantro. Estos tacos son una delicia que combina la jugosidad y suavidad de la carne con sabores cítricos y especiados, representando una auténtica experiencia de la cocina de Yucatán.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
     "facts": {
       "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "birthPlace": "Yucatan, Mexico",
+      "mainField": "Platillo principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
+    "id": "Coctel-de-camarón",
+    "name": "Coctel de camarón",
+    "shortDescription": "Cóctel de camarón, platillo mexicano refrescante con camarones, jugo de tomate, cebolla, cilantro, aguacate y jugo de limón.",
+    "description": "El cóctel de camarón es un platillo tradicional mexicano, especialmente popular en las regiones costeras. Se prepara con camarones cocidos y pelados, mezclados en una base de jugo de tomate, jugo de limón y salsa de tomate, lo que le da un sabor fresco y ligeramente ácido. A esta mezcla se le añade cebolla picada, cilantro fresco, aguacate y, a veces, pepino y chiles picados para un toque extra de sabor y frescura. El cóctel se sirve frío, generalmente en copas o vasos altos, y se acompaña con galletas saladas o tostadas. Este platillo es ideal para los días calurosos y es apreciado por su combinación de texturas crujientes y sabores vibrantes que resaltan la frescura de los ingredientes marinos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
     "facts": {
       "yearOfBirth": "1977",
       "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "birthPlace": "Mexico, Mexico",
+      "mainField": "Platillo principal"
     },
     "extraInfo": {
       "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
+    "id": "ceviche-plato",
+    "name": "Ceviche",
+    "shortDescription": "Ceviche, platillo mexicano de pescado crudo marinado en jugo de limón, mezclado con tomate, cebolla, cilantro y chiles.",
+    "description": "El ceviche es un platillo mexicano fresco y vibrante, especialmente popular en las zonas costeras. Se prepara con pescado crudo, comúnmente tilapia o corvina, que se corta en cubos pequeños y se marina en jugo de limón fresco, cuya acidez "cocina" el pescado. A esta base se le agrega tomate picado, cebolla, cilantro y chiles serranos o jalapeños para un toque picante. Opcionalmente, se puede añadir pepino y aguacate para mayor frescura y textura. El ceviche se sirve frío y se acompaña con tostadas o galletas saladas, a menudo con rodajas de aguacate y un toque de salsa picante. Este platillo es una deliciosa combinación de sabores cítricos y picantes, ideal para los días calurosos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
     "facts": {
       "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "birthPlace": "Veracruz, Mexico",
+      "mainField": "Platillo principal"
     },
     "extraInfo": {
       "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
+    "id": "chile-relleno",
+    "name": "Chile rello",
+    "shortDescription": "Chile relleno, platillo mexicano con chile poblano asado y relleno de queso o picadillo, cubierto con salsa de tomate.",
+    "description": "El chile relleno es un tradicional platillo de la cocina mexicana conocido por su sabor y versatilidad. Se prepara utilizando chiles poblanos grandes que se asan y pelan para quitarles la piel. Estos chiles se rellenan con queso (como queso Oaxaca o queso fresco) o con picadillo, que es una mezcla de carne molida, pasas, almendras y especias. Después de ser rellenados, los chiles se cubren con huevo batido y se fríen hasta obtener una capa dorada y esponjosa. Finalmente, se sirven bañados en una salsa de tomate fresca y ligera, a menudo acompañados de arroz y frijoles. Este platillo combina sabores suaves y picantes, y es una muestra representativa de la rica y variada gastronomía mexicana.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
     "facts": {
       "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "birthPlace": "Mexico, Mexico",
+      "mainField": "Platillo principal"
     },
     "extraInfo": {
       "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
