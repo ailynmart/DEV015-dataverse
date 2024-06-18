@@ -70,7 +70,7 @@ export default [
     "description": "El pozole rojo es una sopa tradicional que combina maíz hominy con carne de cerdo en un caldo vibrante hecho de chiles guajillo y ancho. Esta sopa tiene una textura rica y un sabor profundo que resalta con la mezcla de maíz, carne tierna y chiles. Se sirve típicamente con rábano, lechuga, orégano y limón para un contraste fresco y crujiente que complementa el calor del caldo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
     "facts": {
-      "placeOrigen": "---",
+      "placeOrigen": "Michoacan---",
       "nivelSpicy": "---",
       "typeOfMeat": "Cerdo",
       "mainField": "Sopa, Caldos"
