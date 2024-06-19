@@ -4,8 +4,8 @@ export default [
     "id": "aguachile-verde",
     "name": "Aguachile Verde",
     "shortDescription": "Mariscos frescos en salsa de chile serrano..",
-    "description": "Este platillo clásico de la costa mexicana combina mariscos frescos con una salsa verde vibrante hecha de chiles serranos, cilantro y jugo de limón. El aguachile verde ofrece una explosión de sabor y un toque picante que es perfectamente refrescante para los días calurosos. Servido con rodajas finas de pepino y cebolla morada, este plato es una experiencia culinaria que estimula los sentidos y deja un regusto picante inolvidable.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "description": " Consiste en mariscos crudos, principalmente camarones, se marinan en una mezcla de jugo de limón fresco, chile verde picado (como chile serrano o jalapeño) y sal. La acidez del limón cocina ligeramente los mariscos mientras que el chile le proporciona un sabor picante característico. Además de los camarones, el aguachile suele incluir acompañamientos como rodajas de pepino, cebolla morada y aguacate, que complementan y equilibran los sabores intensos de la salsa. Este platillo se sirve frío y es apreciado por su frescura, intensidad de sabores y la combinación única de ingredientes frescos.",
+    "imageUrl": "https://www.chilipeppermadness.com/wp-content/uploads/2021/08/Aguachile-Recipe1.jpg",
     "facts": {
       "placeOrigen": "Sinaloa",
       "nivelSpicy": "Alto",
@@ -13,71 +13,71 @@ export default [
       "mainField": "Plato Principal"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "imageSource": " ------"
     }
   },
   {
     "id": "mole-negro",
     "name": "Mole Negro",
-    "shortDescription": "Salsa compleja de chiles y especias sobre carne tierna.",
-    "description": "El mole negro es una de las joyas culinarias de Oaxaca. Esta salsa oscura y rica combina chiles chilhuacle, mulato y pasilla con una mezcla de especias como el clavo, la canela y el anís. Se sirve típicamente sobre carne de pollo o cerdo, creando una sinfonía de sabores que balancea el picante, el dulce y el amargo. Cada bocado es una muestra de la complejidad y la profundidad de la cocina mexicana.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "shortDescription": "Mole negro tradicional de Oaxaca, preparado con chiles tostados y chocolate, acompañado de pollo",
+    "description": "El mole negro es un platillo icónico de la gastronomía mexicana, originario de Oaxaca. Este mole se elabora con una rica mezcla de chiles, especias, frutos secos y chocolate. Se cocina lentamente para desarrollar su característico sabor profundo y sedoso. Se suele servir con pollo o pavo, acompañado de arroz. El mole negro se destaca por su balance entre dulce y picante, y su textura aterciopelada. Ideal para celebraciones especiales, este mole requiere paciencia y habilidad para lograr su complejidad única.",
+    "imageUrl": "https://spicetrekkers.com//upload/share/quick-mole-negro.jpg",
     "facts": {
       "placeOrigen": "Oaxaca",
-      "nivelSpicy": "---",
+      "nivelSpicy": "Moderado",
       "typeOfMeat": "Pollo ",
       "mainField": "Plato principal"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "imageSource": "-----"
     }
   },
   {
     "id": "chiles-en-nogada",
     "name": "Chiles en Nogada",
-    "shortDescription": "Poblano relleno de picadillo con nogada y granada.",
-    "description": "Los chiles en nogada son un festín para los sentidos y un símbolo de la independencia de México. El plato consiste en chiles poblanos rellenos de picadillo de carne, frutas y especias, cubiertos con una cremosa salsa de nuez (nogada) y adornados con semillas de granada. La combinación de sabores dulces, salados y picantes crea un balance perfecto que hace de cada bocado una celebración de la riqueza culinaria mexicana.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "shortDescription": "Chile poblano relleno de picadillo y frutas, bañado en salsa de nuez y granada.",
+    "description": "El chile en nogada es un platillo emblemático de Puebla, conocido por su elegancia y complejidad. Se elabora con chiles poblanos rellenos de un picadillo de carne de res y cerdo, frutas, y especias. El chile se cubre con una salsa cremosa de nuez de Castilla y se decora con granada y perejil, representando los colores de la bandera mexicana. Este platillo, asociado a la independencia de México, es un equilibrio perfecto entre sabores dulces, salados y un toque de picante.",
+    "imageUrl": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/red-meats-&-red-meat-dishes/chile-en-nogada/main-header.jpg",
     "facts": {
       "placeOrigen": "Puebla",
-      "nivelSpicy": "---",
+      "nivelSpicy": "Bajo",
       "typeOfMeat": "Res",
       "mainField": "Plato principal"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "imageSource": "-------"
     }
   },
   {
     "id": "birria-de-res",
     "name": "Birria de Res",
     "shortDescription": "Carne de res guisada en salsa de chiles guajillo y ancho.",
-    "description": "La birria de res es un estofado tradicional que se cocina lentamente para lograr una carne jugosa y llena de sabor. Se utiliza una mezcla de chiles guajillo, ancho y de árbol para crear una salsa robusta y picante que penetra la carne, dándole una profundidad de sabor inigualable. Se sirve típicamente con tortillas de maíz frescas, cebolla, cilantro y un toque de limón, haciendo de este platillo un favorito en celebraciones y reuniones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "description": "La birria de res es un estofado tradicional que se cocina lentamente para lograr una carne jugosa y llena de sabor. Se utiliza una mezcla de chiles guajillo, ancho y de árbol para crear una salsa robusta y picante que penetra la carne, dándole una profundidad de sabor inigualable. Se sirve típicamente con tortillas de maíz frescas, cebolla, cilantro y un toque de limón, haciendo de este platillo un favorito en celebraciones y reuniones.Su uso es tan popular en bodas y celebraciones.",
+    "imageUrl": "https://cdn2.cocinadelirante.com/800x600/filters:format(webp):quality(75)/sites/default/files/images/2021/07/receta-de-birria-de-res-estilo-jalisco-ingredientes.jpg",
     "facts": {
       "placeOrigen": "Jalisco",
-      "nivelSpicy": "---",
+      "nivelSpicy": "Moderado",
       "typeOfMeat": "Res",
       "mainField": "Plato principal"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "imageSource": "--------------"
     }
   },
   {
-    "id": "pozole-rojo",
-    "name": "Pozole Rojo",
-    "shortDescription": "Sopa de maíz con carne en caldo de chile guajillo.",
-    "description": "El pozole rojo es una sopa tradicional que combina maíz hominy con carne de cerdo en un caldo vibrante hecho de chiles guajillo y ancho. Esta sopa tiene una textura rica y un sabor profundo que resalta con la mezcla de maíz, carne tierna y chiles. Se sirve típicamente con rábano, lechuga, orégano y limón para un contraste fresco y crujiente que complementa el calor del caldo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "cochinita-pibil",
+    "name": "Cochinita Pibil",
+    "shortDescription": "Cerdo marinado en achiote y chiles, cocido en hojas de plátano.",
+    "description": "La cochinita pibil es un plato icónico de la península de Yucatán. Se elabora marinando carne de cerdo en una mezcla de achiote, jugo de naranja agria, y chiles guajillo y habanero. Luego, la carne se envuelve en hojas de plátano y se cocina lentamente en un horno bajo tierra o en una olla cerrada, permitiendo que se impregne de los sabores y se vuelva tierna y jugosa. Este platillo se sirve tradicionalmente con cebolla morada encurtida y tortillas de maíz, ofreciendo un contraste de sabores que es tan vibrante como delicioso.",
+    "imageUrl": "https://whatsgabycooking.com/wp-content/uploads/2020/03/All-Clad-Cochinita-Pibil-5-copy-2.jpg",
     "facts": {
-      "placeOrigen": "Michoacan---",
-      "nivelSpicy": "---",
+      "placeOrigen": "Yucatan",
+      "nivelSpicy": "Moderado",
       "typeOfMeat": "Cerdo",
-      "mainField": "Sopa, Caldos"
+      "mainField": "Plato principal"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "imageSource": "---"
     }
   },
   {
@@ -87,7 +87,7 @@ export default [
     "description": "El caldo tlalpeño es una sopa reconfortante que combina pollo tierno con garbanzos en un caldo claro y picante con chipotle. El sabor ahumado del chile chipotle se integra perfectamente con la suavidad del aguacate y la frescura del cilantro, creando una sopa que es tanto nutritiva como deliciosa. Perfecto para días fríos, este caldo ofrece una experiencia cálida y picante que calienta desde el primer sorbo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
     "facts": {
-      "placeOrigen": "Tlalpan",
+      "placeOrigen": "Tlalpa",
       "nivelSpicy": "---",
       "typeOfMeat": "Pollo",
       "mainField": "Sopa, Caldos"
@@ -153,7 +153,7 @@ export default [
     "facts": {
       "placeOrigen": "Region Central",
       "nivelSpicy": "Moderado",
-      "mainField": "Antojitos, Guarniciones Picantes"
+      "mainField": "Antojitos, Guarniciones "
     },
     "extraInfo": {
       "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
@@ -161,99 +161,101 @@ export default [
   },
   //SOPAS Y CALDOS (3)
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "pozole-rojo",
+    "name": "Pozole Rojo",
+    "shortDescription": "Caldo de maíz cacahuazintle y carne de cerdo, acompañado de rábano, lechuga y limón.",
+    "description": "El pozole rojo es una sopa tradicional mexicana hecha con maíz hominy y carne de cerdo. Su distintivo color rojo proviene de la mezcla de chiles secos como el guajillo y el ancho, que le aportan un sabor profundo y sobre todo picante. Este plato se suele servir con una variedad de acompañamientos frescos como lechuga, rábanos, cebolla, orégano y jugo de limón. Es una comida popular en celebraciones y festividades, conocida por su capacidad de calentar el cuerpo y el alma.",
+    "imageUrl": "https://res.cloudinary.com/hksqkdlah/image/upload/SFS_Pozole_Rojo_3563_kgsam2.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "placeOrigen": "Mexico,Mexico",
+      "nivelSpicy": "Alto",
+      "typeOfMeat": "Cerdo",
+      "mainField": " Sopa"
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "imageSource": "---"
     }
   },
  
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "caldo-tlalpeño",
+    "name": "Caldo Tlalpeño",
+    "shortDescription": "Un caldo tradicional mexicano con pollo desmenuzado, verduras frescas y un toque de chipotle.",
+    "description": "El Caldo Tlalpeño es una sopa vibrante que fusiona pollo tierno con garbanzos, zanahorias, calabacitas, y la picante intensidad del chile chipotle. Este platillo se enriquece con un toque de limón, aguacate fresco, y un sabor único que proviene de la hoja de aguacate. Su caldo aromático y su balance perfecto de sabores hacen de esta sopa una elección excelente para aquellos que buscan un plato reconfortante y con un toque de picante. Ideal para disfrutar en cualquier época del año, especialmente en días fríos.",
+    "imageUrl": "https://i.pinimg.com/originals/5f/d3/07/5fd307dbdafc839dd5977875cca50586.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "placeOrigen": "Tlalpan",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "Pollo",
+      "mainField": "Sopa"
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "imageSource": "--"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "menudo",
+    "name": "Menudo",
+    "shortDescription": "Caldo robusto con callos de res, maíz pozolero y una mezcla de chiles secos.",
+    "description": "El Menudo es un tradicional caldo mexicano hecho a base de callos de res y maíz pozolero, conocido por su sabor profundo y su capacidad para revitalizar. La preparación incluye una mezcla de chiles secos como el guajillo, ancho y pasilla, que aportan un picante moderado y un sabor ahumado distintivo. Es habitual acompañarlo con cebolla picada, orégano, limón y chiles secos en polvo para intensificar su sabor. Popularmente servido en ocasiones especiales y como remedio para la resaca, el Menudo es un clásico indispensable en la gastronomía mexicana.",
+    "imageUrl": "https://t4.ftcdn.net/jpg/04/73/85/51/360_F_473855149_8lXgmogx7hOpmmnyf2jrcH2KKFJBaJO6.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "placeOrigen": "Mexico,Mexico",
+      "nivelSpicy": "Alto",
+      "typeOfMeat": "Res",
+      "mainField": "Caldo"
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "imageSource": "--"
     }
   },
   //ANTOJITOS Y BOTANAS (4)
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "tostada-tinga",
+    "name": "Tostada de Tinga",
+    "shortDescription": "Tostada crujiente con tinga de pollo sazonada con chipotle y cebolla.",
+    "description": "La Tostada Tinga es una explosión de texturas y sabores única y deliciosa. Sobre una tostada crujiente, se presenta la tinga, una preparación de pollo desmenuzado cocido lentamente en una salsa de jitomate con cebolla y el inconfundible sabor ahumado y picante del chile chipotle. Coronada con crema fresca, queso rallado, lechuga y rebanadas de aguacate, cada bocado ofrece una combinación armoniosa de crocantez y jugosidad. Perfecta como entrada o plato principal, esta tostada es una representación vibrante de la cocina mexicana.",
+    "imageUrl": "https://simplyscrumptiouseats.com/wp-content/uploads/2022/06/tinga-de-tostadas-feature.jpg ",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "placeOrigen": "Puebla",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "Pollo",
+      "mainField": "Antojos, Botanas"
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "imageSource": "---"
     }
   },
   
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "sopes",
+    "name": "Sopes",
+    "shortDescription": "Masa gruesa de maíz con frijoles, crema, queso y salsa de chile.",
+    "description": "Los Sopes son una delicia mexicana que consiste en una base de masa gruesa de maíz, ligeramente frita, formando un borde que retiene los deliciosos ingredientes. Se unta con una capa de frijoles refritos, se adorna con crema, queso fresco, lechuga y se añade una generosa cantidad de salsa de chile para un toque picante. Este platillo puede personalizarse con ingredientes adicionales como carne deshebrada o chorizo, y ofrece una experiencia culinaria completa, combinando texturas suaves y crujientes con un sabor robusto y picante.",
+    "imageUrl": "https://patijinich.com/es/wp-content/uploads/sites/3/2017/12/610-sopes.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+     "placeOrigen": "Mexico,Mexico",
+      "nivelSpicy": "Bajo",
+      "typeOfMeat": "Res",
+      "mainField": "Antojos, Botanas"
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "imageSource": "---"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "tlacoyos-con-salsa-de-chile-morita",
+    "name": "Tlacoyos con Salsa de Chile Morita",
+    "shortDescription": "Anchas tortillas de maíz rellenas de frijoles con salsa de chile morita.",
+    "description": "Los Tlacoyos son tortillas gruesas de maíz alargadas, rellenas de frijoles negros o habas, que se cuecen en el comal hasta alcanzar una textura crujiente por fuera y suave por dentro. Tradicionalmente acompañados con salsa de chile morita, que añade un sabor ahumado y un picor moderado, estos tlacoyos se complementan con queso fresco desmenuzado, nopales, crema y cebolla. Su versatilidad permite disfrutar de un plato nutritivo y sabroso, perfecto como almuerzo o cena ligera. Son un emblema de la cocina callejera mexicana.",
+    "imageUrl": "https://media.admagazine.com/photos/6501e026afdf371c24c1823a/4:3/w_2664,h_1998,c_limit/GettyImages-1071539430.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "placeOrigen": "Mexico,Mexico",
+      "nivelSpicy": "Bajo",
+      "mainField": "Antojos, Botanas"
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "imageSource": "---"
     }
   },
   {
@@ -372,19 +374,18 @@ export default [
   },
   //BEBIDAS PICANTES(1)
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
+    "id": "micheladas",
+    "name": "Micheladas",
+    "shortDescription": "Refrescante bebida de cerveza mezclada con limón, salsas y chile.Refrescante bebida de cerveza mezclada con limón, salsas y chile.",
     "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "imageUrl": "https://micocinadominicana.com/wp-content/uploads/2017/06/Spicy-Mango-Michelada-Smart-Little-Cookie-5.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "placeOrigen": "Mexico,Mexico ",
+      "nivelSpicy": "Alto",
+      "mainField": "Bebidas Picantes"
     },
     "extraInfo": {
-      "imageSource": ""
+      "imageSource": "---"
     }
   }
 ];
