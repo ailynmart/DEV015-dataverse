@@ -81,79 +81,80 @@ export default [
     }
   },
   {
-    "id": "caldo-tlalpeño",
-    "name": "Caldo Tlalpeño",
-    "shortDescription": "Sopa de pollo con chipotle, garbanzos y aguacate.",
-    "description": "El caldo tlalpeño es una sopa reconfortante que combina pollo tierno con garbanzos en un caldo claro y picante con chipotle. El sabor ahumado del chile chipotle se integra perfectamente con la suavidad del aguacate y la frescura del cilantro, creando una sopa que es tanto nutritiva como deliciosa. Perfecto para días fríos, este caldo ofrece una experiencia cálida y picante que calienta desde el primer sorbo.",
+    "id": "Tacos-pastor",
+    "name": "Tacos al pastor",
+    "shortDescription": "Tacos al pastor, platillo mexicano con carne de cerdo marinada y asada en trompo, servida en tortillas con piña y cilantro.",
+    "description": "Los tacos al pastor son un emblemático platillo mexicano que se originó en la Ciudad de México. Se preparan con carne de cerdo marinada en una mezcla de chiles, achiote, vinagre y especias, y se cocinan en un trompo vertical similar al shawarma. La carne se corta en finas tiras y se sirve en tortillas de maíz calientes, acompañada de piña, cebolla, cilantro y salsa. La combinación de la carne jugosa y especiada con la dulzura de la piña y la frescura de los ingredientes hace de estos tacos una delicia irresistible. Son populares en taquerías y puestos callejeros, ofreciendo una experiencia auténtica de la gastronomía mexicana.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
     "facts": {
-      "placeOrigen": "Tlalpa",
-      "nivelSpicy": "---",
-      "typeOfMeat": "Pollo",
-      "mainField": "Sopa, Caldos"
+      "placeOrigen": "Mexico",
+      "nivelSpicy": "Bajo",
+      "typeOfMeat": "Cerdo",
+      "mainField": "Plato principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
     }
   },
   {
-    "id": "menudo",
-    "name": "Menudo",
-    "shortDescription": "Sopa de pancita de res en caldo de chile guajillo.",
-    "description": "El menudo es un platillo popular en la cocina mexicana, especialmente apreciado como cura para la resaca. Consiste en pancita de res cocida en un caldo rico y especiado hecho de chiles guajillo y de árbol. Su textura y sabor robusto se complementan con un toque de orégano y limón. Esta sopa espesa y llena de sabor es un clásico de los fines de semana en muchas regiones de México, conocido por su poder revitalizante.",
+    "id": "Tacos-pibil",
+    "name": "Tacos de cochinita pibil",
+    "shortDescription": "Tacos de cochinita pibil, platillo yucateco con cerdo marinado en achiote y naranja agria, cocido lentamente y servido en tortillas.",
+    "description": "Los tacos de cochinita pibil son un tradicional platillo yucateco que destaca por su sabor intenso y su preparación especial. La cochinita pibil se elabora marinando carne de cerdo en una mezcla de achiote, jugo de naranja agria, ajo y especias. Esta mezcla le da a la carne su distintivo color rojo y un sabor profundamente aromático. La carne se envuelve en hojas de plátano y se cocina lentamente, tradicionalmente en un horno subterráneo. Una vez cocida, la carne se desmenuza y se sirve en tortillas de maíz, acompañada de cebolla morada encurtida, salsa de habanero y, a veces, cilantro. Estos tacos son una delicia que combina la jugosidad y suavidad de la carne con sabores cítricos y especiados, representando una auténtica experiencia de la cocina de Yucatán.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
     "facts": {
-      "placeOrigen": "Norteño",
-      "nivelSpicy": "---",
-      "typeOfMeat": "Res",
-      "mainField": "Sopa, Caldos"
+      "placeOrigen": "Yucatan",
+      "nivelSpicy": "Bajo",
+      "typeOfMeat": "Puerco",
+      "mainField": "Planto principal"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
     }
   },
   {
-    "id": "tostadas-de-tinga",
-    "name": "Tostadas de Tinga",
-    "shortDescription": "Tostadas con tinga de pollo y salsa chipotle.",
-    "description": "Las tostadas de tinga son una delicia mexicana que combina la crujiente textura de la tostada con la tinga de pollo, una preparación donde el pollo se cocina con tomate, cebolla y chile chipotle. La mezcla de sabores ahumados y ligeramente dulces del chipotle se equilibra con la frescura de la lechuga, el queso fresco y un toque de crema. Es una explosión de texturas y sabores en cada bocado, perfecta como entrada o snack",
+    "id": "Coctel-camaron",
+    "name": "Coctel de camarón",
+    "shortDescription": "Cóctel de camarón, platillo mexicano refrescante con camarones, jugo de tomate, cebolla, cilantro, aguacate y jugo de limón.",
+    "description": "El cóctel de camarón es un platillo tradicional mexicano, especialmente popular en las regiones costeras. Se prepara con camarones cocidos y pelados, mezclados en una base de jugo de tomate, jugo de limón y salsa de tomate, lo que le da un sabor fresco y ligeramente ácido. A esta mezcla se le añade cebolla picada, cilantro fresco, aguacate y, a veces, pepino y chiles picados para un toque extra de sabor y frescura. El cóctel se sirve frío, generalmente en copas o vasos altos, y se acompaña con galletas saladas o tostadas. Este platillo es ideal para los días calurosos y es apreciado por su combinación de texturas crujientes y sabores vibrantes que resaltan la frescura de los ingredientes marinos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
     "facts": {
-      "placeOrigen": "Puebla",
-      "nivelSpicy": "---",
-      "typeOfMeat": "Pollo",
-      "mainField": "Antojitos, Guarniciones Picantes"
+      "placeOrigen": "Mexico",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "Camarón",
+      "mainField": "Plato principal"
     },
     "extraInfo": {
       "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
     }
   },
   {
-    "id": "sopes",
-    "name": "Sopes",
-    "shortDescription": "Masa gruesa con frijoles, salsa y chile serrano.",
-    "description": "Los sopes son discos de masa gruesa de maíz, ligeramente fritos, que se cubren con una capa de frijoles, salsa (verde o roja) y se adornan con ingredientes como lechuga, queso y crema. La salsa de chile serrano o de árbol añade un toque picante que realza los sabores de los frijoles y la masa. Son una opción versátil y sabrosa, perfecta como entrada o acompañamiento en una comida mexicana.Los sopes son una comida callejera popular en todo México,se pueden personalizar con diferentes tipos de carne o vegetales.",
+    "id": "ceviche-plato",
+    "name": "Ceviche",
+    "shortDescription": "Ceviche, platillo mexicano de pescado crudo marinado en jugo de limón, mezclado con tomate, cebolla, cilantro y chiles.",
+    "description": "El ceviche es un platillo mexicano fresco y vibrante, popular en las zonas costeras. Se prepara con pescado crudo, como tilapia o corvina, cortado en cubos y marinado en jugo de limón, cuya acidez cocina el pescado. Se le añade tomate picado, cebolla, cilantro y chiles serranos o jalapeños para un toque picante. Opcionalmente, se puede agregar pepino y aguacate para más frescura y textura. Se sirve frío con tostadas o galletas saladas, a menudo con rodajas de aguacate y un toque de salsa picante. Es una deliciosa combinación de sabores cítricos y picantes, ideal para días calurosos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
     "facts": {
-      "placeOrigen": "----",
-      "nivelSpicy": "---",
-      "typeOfMeat": "Res",
-      "mainField": "Antojitos, Guarniciones Picantes"
+      "placeOrigen": "Mexico",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "Pescado",
+      "mainField": "Plato principal"
     },
     "extraInfo": {
       "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
     }
   },
   {
-    "id": "tlacoyo-con-salsa-morita",
-    "name": "Tlacoyos con Salsa Morita",
-    "shortDescription": "Masa ovalada rellena con frijoles y salsa morita.",
-    "description": "Los tlacoyos son una especialidad tradicional que se remonta a tiempos prehispánicos. Son tortillas ovaladas y gruesas hechas de masa de maíz, rellenas típicamente con frijoles y servidas con una salsa de chile morita. El chile morita aporta un sabor ahumado y una picantez moderada que complementa perfectamente la suavidad de los frijoles y la textura de la masa. Son una opción deliciosa y auténtica en la cocina mexicana.El chile morita es un jalapeño seco y ahumado, similar al chipotle pero más pequeño",
+    "id":"Tamal-Oaxaqueño",
+    "name":"Tamal oaxaqueño",
+    "shortDescription": "Platillo mexicano de masa de maíz rellena con carne y salsa, envuelto en hoja de plátano y cocido al vapor.",
+    "description": "Es un tradicional platillo mexicano, originario del estado de Oaxaca. Se elabora con masa de maíz nixtamalizado, que se rellena con una mezcla de carne (generalmente pollo o cerdo) y una rica salsa de mole o chiles, lo que le da un sabor distintivo y profundo. La masa y el relleno se envuelven cuidadosamente en hojas de plátano, lo que imparte un aroma y sabor característicos al tamal. Luego, se cocinan al vapor hasta que la masa esté firme y bien cocida. Los tamales oaxaqueños son conocidos por su textura suave y su combinación de sabores complejos y auténticos, siendo una delicia popular en celebraciones y festividades en todo México.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
     "facts": {
-      "placeOrigen": "Region Central",
-      "nivelSpicy": "Moderado",
-      "mainField": "Antojitos, Guarniciones "
+      "placeOrigen": "Oaxaca",
+      "nivelSpicy": "Bajo",
+      "typeOfMeat": "Pollo,res,cerdo",
+      "mainField": "Plato principal"
     },
     "extraInfo": {
       "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
@@ -259,16 +260,16 @@ export default [
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
+    "id": "tostadas-Camarón",
+    "name": "Tostadas de camarón",
+    "shortDescription": "Tostadas de camarón, antojito mexicano con camarones cocidos, servidos sobre tortillas crujientes con pico de gallo, aguacate y salsa.",
+    "description": "Delicioso antojito mexicano que combina sabores frescos y texturas crujientes. Se preparan con camarones cocidos, generalmente marinados en jugo de limón para resaltar su sabor. Los camarones se colocan sobre tortillas de maíz fritas y crujientes, y se acompañan con pico de gallo, que es una mezcla de tomate, cebolla, cilantro y chiles picados. Además, se suelen agregar rebanadas de aguacate y, a menudo, una salsa picante para darle un toque extra de sabor. Este platillo es popular en las zonas costeras de México y es perfecto para una comida ligera y refrescante, ideal para disfrutar en un día caluroso.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "placeOrigen": "sur mexico",
+      "nivelSpicy": "Moderada",
+      "typeOfMeat": "Camarón",
+      "mainField": "Antojitos y Botanas"
     },
     "extraInfo": {
       "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
@@ -276,16 +277,16 @@ export default [
   },
   //SALSAS Y GUANICIONES (4)
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
+    "id": "Salsa-Roja",
+    "name": "Salsa Roja",
+    "shortDescription": "Salsa roja mexicana, picante y sabrosa, hecha con chiles secos, tomates, ajo y cebolla, ideal para antojitos.",
+    "description":"La salsa roja es una salsa tradicional mexicana conocida por su sabor picante y profundo. Se elabora principalmente con chiles secos como el guajillo y el chile de árbol, tomates asados, ajo y cebolla. Estos ingredientes se combinan y se muelen para crear una salsa robusta y versátil que se utiliza para acompañar tacos, enchiladas, sopes y otros antojitos mexicanos. Su color rojo vibrante y su perfil de sabor complejo la convierten en una favorita en la cocina mexicana, aportando calor y riqueza a numerosos platillos.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "placeOrigen": "Mexico",
+      "nivelSpicy": "Alto",
+      "typeOfMeat": "N/a",
+      "mainField": "Salsa y guarniciones"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
@@ -293,15 +294,16 @@ export default [
   },
   
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
+    "id": "Salsa-verde",
+    "name": "Salsa verde",
+    "shortDescription": "Salsa verde mexicana, fresca y picante, hecha con tomatillos, chile serrano, cilantro y cebolla, perfecta para tacos y enchiladas.",
     "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "placeOrigen": "Mexico",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "N/a",
+      "mainField": "Salsa y guarniciones"
     },
     "extraInfo": {
       "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
@@ -309,31 +311,32 @@ export default [
   },
   
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
+    "id": "Guacamole-guarnicion",
+    "name": "Guacamoles",
+    "shortDescription": "Guacamole mexicano, cremoso y fresco, hecho con aguacate, tomate, cebolla, cilantro, chile y limón, ideal para acompañar antojitos.",
+    "description": "El guacamole es un platillo icónico de la cocina mexicana, conocido por su textura cremosa y su sabor fresco. Se prepara con aguacates maduros triturados, mezclados con tomate picado, cebolla, cilantro, chile (jalapeño o serrano), y jugo de limón, que añade un toque de acidez. Esta combinación de ingredientes crea un dip versátil y delicioso, perfecto para acompañar tortillas de maíz, tacos, nachos y otros antojitos. El guacamole no solo es sabroso, sino también nutritivo, destacando por sus grasas saludables y su contenido de vitaminas y minerales esenciales.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+     "placeOrigen": "Mexico",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "N/a",
+      "mainField": "Salsa y guarniciones"
     },
     "extraInfo": {
       "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
+    "id": "Pico-de-gallo",
+    "name": "Pico de gallo",
+    "shortDescription": "Pico de gallo, salsa fresca mexicana, hecha con tomate, cebolla, cilantro, chile y limón, ideal para tacos y nachos.",
+    "description": "El pico de gallo es una salsa fresca y crujiente típica de la cocina mexicana, conocida por su simplicidad y vibrante sabor. Se elabora con tomate picado, cebolla, cilantro, chile jalapeño o serrano, y jugo de limón. Todos los ingredientes se mezclan para crear una combinación de sabores frescos y picantes que complementan una variedad de platillos. Ideal para acompañar tacos, nachos, quesadillas y carnes asadas, el pico de gallo no solo añade sabor, sino también una textura refrescante y colorida que realza cualquier comida. ",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+     "placeOrigen": "Mexico",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "N/a",
+      "mainField": "Salsa y guarniciones" 
     },
     "extraInfo": {
       "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
@@ -341,32 +344,32 @@ export default [
   },
   //POSTRES (2)
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
+    "id": "Chocolate-chile",
+    "name": "Chocolate con chile",
+    "shortDescription": "Chocolate con chile, postre mexicano con chocolate oscuro y chiles picantes, combinación única de dulce y picante.",
+    "description": "El chocolate con chile es un postre mexicano que mezcla el sabor del chocolate oscuro con el picante de los chiles. Esta combinación de dulce y picante tiene raíces en la tradición culinaria de México, donde el cacao era valorado y consumido con especias, incluidos los chiles. Para preparar este postre, se usa chocolate amargo de alta calidad y se añade chile en polvo o chiles secos molidos. El resultado es una mezcla de sabores complejos que resalta la riqueza del chocolate y el picante del chile. Se sirve caliente como bebida reconfortante o frío como postre indulgente.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+    "placeOrigen": "Mexico",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "N/a",
+      "mainField": "Postres" 
     },
     "extraInfo": {
       "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
+    "id": "Frutas-picantes",
+    "name": "Frutas con chile",
+    "shortDescription": "Frutas con chile, postre refrescante, combina frutas frescas con chile en polvo, limón y sal, un equilibrio perfecto de sabores.",
+    "description": "Las frutas con chile son un popular y tradicional postre mexicano que destaca por su combinación única de sabores. Se prepara utilizando frutas frescas como mango, piña, sandía, pepino, jícama o melón, cortadas en trozos o rodajas. Estas frutas se aderezan típicamente con jugo de limón fresco, sal y chile en polvo, como el conocido Tajín, que añade un toque de picante y sabor salado. La mezcla de sabores dulces, ácidos y picantes crea un contraste delicioso y refrescante, perfecto para consumir como snack en días calurosos o como postre después de una comida. Las frutas con chile son apreciadas no solo por su sabor, sino también por ser una opción saludable y llena de vitaminas.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "placeOrigen": "Mexico",
+      "nivelSpicy": "Moderado",
+      "typeOfMeat": "N/a",
+      "mainField": "Salsa y guarniciones" 
     },
     "extraInfo": {
       "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
