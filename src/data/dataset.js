@@ -12,9 +12,7 @@ export default [
       "typeOfMeat": "Mariscos",
       "mainField": "Plato Principal"
     },
-    "extraInfo": {
-      "imageSource": " ------"
-    }
+    
   },
   {
     "id": "mole-negro",
@@ -28,9 +26,7 @@ export default [
       "typeOfMeat": "Pollo ",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "-----"
-    }
+    
   },
   {
     "id": "chiles-en-nogada",
@@ -44,9 +40,7 @@ export default [
       "typeOfMeat": "Res",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "-------"
-    }
+    
   },
   {
     "id": "birria-de-res",
@@ -60,105 +54,91 @@ export default [
       "typeOfMeat": "Res",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "--------------"
-    }
+    
   },
   {
     "id": "cochinita-pibil",
     "name": "Cochinita Pibil",
     "shortDescription": "Cerdo marinado en achiote y chiles, cocido en hojas de plátano.",
     "description": "La cochinita pibil es un plato icónico de la península de Yucatán. Se elabora marinando carne de cerdo en una mezcla de achiote, jugo de naranja agria, y chiles guajillo y habanero. Luego, la carne se envuelve en hojas de plátano y se cocina lentamente en un horno bajo tierra o en una olla cerrada, permitiendo que se impregne de los sabores y se vuelva tierna y jugosa. Este platillo se sirve tradicionalmente con cebolla morada encurtida y tortillas de maíz, ofreciendo un contraste de sabores que es tan vibrante como delicioso.",
-    "imageUrl": "https://whatsgabycooking.com/wp-content/uploads/2020/03/All-Clad-Cochinita-Pibil-5-copy-2.jpg",
+    "imageUrl": "https://cdn.kiwilimon.com/recetaimagen/27579/26126.jpg",
     "facts": {
       "placeOrigen": "Yucatan",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "Cerdo",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "---"
-    }
+    
   },
   {
     "id": "Tacos-pastor",
     "name": "Tacos al pastor",
     "shortDescription": "Tacos al pastor, platillo mexicano con carne de cerdo marinada y asada en trompo, servida en tortillas con piña y cilantro.",
     "description": "Los tacos al pastor son un emblemático platillo mexicano que se originó en la Ciudad de México. Se preparan con carne de cerdo marinada en una mezcla de chiles, achiote, vinagre y especias, y se cocinan en un trompo vertical similar al shawarma. La carne se corta en finas tiras y se sirve en tortillas de maíz calientes, acompañada de piña, cebolla, cilantro y salsa. La combinación de la carne jugosa y especiada con la dulzura de la piña y la frescura de los ingredientes hace de estos tacos una delicia irresistible. Son populares en taquerías y puestos callejeros, ofreciendo una experiencia auténtica de la gastronomía mexicana.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "imageUrl": "https://comidamexicana.co/wp-content/uploads/2019/07/receta-de-tacos-al-pastor.jpg",
     "facts": {
       "placeOrigen": "Mexico",
       "nivelSpicy": "Bajo",
       "typeOfMeat": "Cerdo",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
+   
   },
   {
     "id": "Tacos-pibil",
     "name": "Tacos de cochinita pibil",
     "shortDescription": "Tacos de cochinita pibil, platillo yucateco con cerdo marinado en achiote y naranja agria, cocido lentamente y servido en tortillas.",
     "description": "Los tacos de cochinita pibil son un tradicional platillo yucateco que destaca por su sabor intenso y su preparación especial. La cochinita pibil se elabora marinando carne de cerdo en una mezcla de achiote, jugo de naranja agria, ajo y especias. Esta mezcla le da a la carne su distintivo color rojo y un sabor profundamente aromático. La carne se envuelve en hojas de plátano y se cocina lentamente, tradicionalmente en un horno subterráneo. Una vez cocida, la carne se desmenuza y se sirve en tortillas de maíz, acompañada de cebolla morada encurtida, salsa de habanero y, a veces, cilantro. Estos tacos son una delicia que combina la jugosidad y suavidad de la carne con sabores cítricos y especiados, representando una auténtica experiencia de la cocina de Yucatán.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "imageUrl": "https://dam.cocinafacil.com.mx/wp-content/uploads/2019/08/tacos-de-cochinita.jpg",
     "facts": {
       "placeOrigen": "Yucatan",
       "nivelSpicy": "Bajo",
       "typeOfMeat": "Puerco",
       "mainField": "Planto principal"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
+   
   },
   {
     "id": "Coctel-camaron",
     "name": "Coctel de camarón",
     "shortDescription": "Cóctel de camarón, platillo mexicano refrescante con camarones, jugo de tomate, cebolla, cilantro, aguacate y jugo de limón.",
     "description": "El cóctel de camarón es un platillo tradicional mexicano, especialmente popular en las regiones costeras. Se prepara con camarones cocidos y pelados, mezclados en una base de jugo de tomate, jugo de limón y salsa de tomate, lo que le da un sabor fresco y ligeramente ácido. A esta mezcla se le añade cebolla picada, cilantro fresco, aguacate y, a veces, pepino y chiles picados para un toque extra de sabor y frescura. El cóctel se sirve frío, generalmente en copas o vasos altos, y se acompaña con galletas saladas o tostadas. Este platillo es ideal para los días calurosos y es apreciado por su combinación de texturas crujientes y sabores vibrantes que resaltan la frescura de los ingredientes marinos.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "imageUrl": "https://cdn.kiwilimon.com/recetaimagen/22482/14254.jpg",
     "facts": {
       "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "Camarón",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
+    
   },
   {
     "id": "ceviche-plato",
     "name": "Ceviche",
     "shortDescription": "Ceviche, platillo mexicano de pescado crudo marinado en jugo de limón, mezclado con tomate, cebolla, cilantro y chiles.",
     "description": "El ceviche es un platillo mexicano fresco y vibrante, popular en las zonas costeras. Se prepara con pescado crudo, como tilapia o corvina, cortado en cubos y marinado en jugo de limón, cuya acidez cocina el pescado. Se le añade tomate picado, cebolla, cilantro y chiles serranos o jalapeños para un toque picante. Opcionalmente, se puede agregar pepino y aguacate para más frescura y textura. Se sirve frío con tostadas o galletas saladas, a menudo con rodajas de aguacate y un toque de salsa picante. Es una deliciosa combinación de sabores cítricos y picantes, ideal para días calurosos.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "imageUrl": "https://www.baconismagic.ca/wp-content/uploads/2012/07/mexican-ceviche.jpg",
     "facts": {
       "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "Pescado",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
+   
   },
   {
     "id":"Tamal-Oaxaqueño",
     "name":"Tamal oaxaqueño",
     "shortDescription": "Platillo mexicano de masa de maíz rellena con carne y salsa, envuelto en hoja de plátano y cocido al vapor.",
     "description": "Es un tradicional platillo mexicano, originario del estado de Oaxaca. Se elabora con masa de maíz nixtamalizado, que se rellena con una mezcla de carne (generalmente pollo o cerdo) y una rica salsa de mole o chiles, lo que le da un sabor distintivo y profundo. La masa y el relleno se envuelven cuidadosamente en hojas de plátano, lo que imparte un aroma y sabor característicos al tamal. Luego, se cocinan al vapor hasta que la masa esté firme y bien cocida. Los tamales oaxaqueños son conocidos por su textura suave y su combinación de sabores complejos y auténticos, siendo una delicia popular en celebraciones y festividades en todo México.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "imageUrl": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/151672.jpg",
     "facts": {
       "placeOrigen": "Oaxaca",
       "nivelSpicy": "Bajo",
       "typeOfMeat": "Pollo,res,cerdo",
       "mainField": "Plato principal"
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
+   
   },
   //SOPAS Y CALDOS (3)
   {
@@ -173,9 +153,7 @@ export default [
       "typeOfMeat": "Cerdo",
       "mainField": " Sopa"
     },
-    "extraInfo": {
-      "imageSource": "---"
-    }
+   
   },
  
   {
@@ -190,9 +168,7 @@ export default [
       "typeOfMeat": "Pollo",
       "mainField": "Sopa"
     },
-    "extraInfo": {
-      "imageSource": "--"
-    }
+   
   },
   {
     "id": "menudo",
@@ -206,9 +182,7 @@ export default [
       "typeOfMeat": "Res",
       "mainField": "Caldo"
     },
-    "extraInfo": {
-      "imageSource": "--"
-    }
+    
   },
   //ANTOJITOS Y BOTANAS (4)
   {
@@ -216,7 +190,7 @@ export default [
     "name": "Tostada de Tinga",
     "shortDescription": "Tostada crujiente con tinga de pollo sazonada con chipotle y cebolla.",
     "description": "La Tostada Tinga es una explosión de texturas y sabores única y deliciosa. Sobre una tostada crujiente, se presenta la tinga, una preparación de pollo desmenuzado cocido lentamente en una salsa de jitomate con cebolla y el inconfundible sabor ahumado y picante del chile chipotle. Coronada con crema fresca, queso rallado, lechuga y rebanadas de aguacate, cada bocado ofrece una combinación armoniosa de crocantez y jugosidad. Perfecta como entrada o plato principal, esta tostada es una representación vibrante de la cocina mexicana.",
-    "imageUrl": "https://simplyscrumptiouseats.com/wp-content/uploads/2022/06/tinga-de-tostadas-feature.jpg ",
+    "imageUrl": "https://assets.unileversolutions.com/recipes-v2/153594.jpg",
     "facts": {
       "placeOrigen": "Puebla",
       "nivelSpicy": "Moderado",
@@ -233,16 +207,14 @@ export default [
     "name": "Sopes",
     "shortDescription": "Masa gruesa de maíz con frijoles, crema, queso y salsa de chile.",
     "description": "Los Sopes son una delicia mexicana que consiste en una base de masa gruesa de maíz, ligeramente frita, formando un borde que retiene los deliciosos ingredientes. Se unta con una capa de frijoles refritos, se adorna con crema, queso fresco, lechuga y se añade una generosa cantidad de salsa de chile para un toque picante. Este platillo puede personalizarse con ingredientes adicionales como carne deshebrada o chorizo, y ofrece una experiencia culinaria completa, combinando texturas suaves y crujientes con un sabor robusto y picante.",
-    "imageUrl": "https://patijinich.com/es/wp-content/uploads/sites/3/2017/12/610-sopes.jpg",
+    "imageUrl": "https://i.blogs.es/3cb9ec/picadasveracruzanas/1024_2000.jpg",
     "facts": {
      "placeOrigen": "Mexico,Mexico",
       "nivelSpicy": "Bajo",
       "typeOfMeat": "Res",
       "mainField": "Antojos, Botanas"
     },
-    "extraInfo": {
-      "imageSource": "---"
-    }
+   
   },
   {
     "id": "tlacoyos-con-salsa-de-chile-morita",
@@ -255,16 +227,14 @@ export default [
       "nivelSpicy": "Bajo",
       "mainField": "Antojos, Botanas"
     },
-    "extraInfo": {
-      "imageSource": "---"
-    }
+   
   },
   {
     "id": "tostadas-Camarón",
     "name": "Tostadas de camarón",
     "shortDescription": "Tostadas de camarón, antojito mexicano con camarones cocidos, servidos sobre tortillas crujientes con pico de gallo, aguacate y salsa.",
     "description": "Delicioso antojito mexicano que combina sabores frescos y texturas crujientes. Se preparan con camarones cocidos, generalmente marinados en jugo de limón para resaltar su sabor. Los camarones se colocan sobre tortillas de maíz fritas y crujientes, y se acompañan con pico de gallo, que es una mezcla de tomate, cebolla, cilantro y chiles picados. Además, se suelen agregar rebanadas de aguacate y, a menudo, una salsa picante para darle un toque extra de sabor. Este platillo es popular en las zonas costeras de México y es perfecto para una comida ligera y refrescante, ideal para disfrutar en un día caluroso.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "imageUrl": "https://www.maricruzavalos.com/wp-content/uploads/2022/02/tostadas-de-camaron-recipe.jpg",
     "facts": {
       "placeOrigen": "sur mexico",
       "nivelSpicy": "Moderada",
@@ -272,7 +242,7 @@ export default [
       "mainField": "Antojitos y Botanas"
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "imageSource": ""
     }
   },
   //SALSAS Y GUANICIONES (4)
@@ -281,16 +251,14 @@ export default [
     "name": "Salsa Roja",
     "shortDescription": "Salsa roja mexicana, picante y sabrosa, hecha con chiles secos, tomates, ajo y cebolla, ideal para antojitos.",
     "description":"La salsa roja es una salsa tradicional mexicana conocida por su sabor picante y profundo. Se elabora principalmente con chiles secos como el guajillo y el chile de árbol, tomates asados, ajo y cebolla. Estos ingredientes se combinan y se muelen para crear una salsa robusta y versátil que se utiliza para acompañar tacos, enchiladas, sopes y otros antojitos mexicanos. Su color rojo vibrante y su perfil de sabor complejo la convierten en una favorita en la cocina mexicana, aportando calor y riqueza a numerosos platillos.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "imageUrl": "https://i0.wp.com/thehappening.com/wp-content/uploads/2018/02/salsa.jpg",
     "facts": {
       "placeOrigen": "Mexico",
       "nivelSpicy": "Alto",
       "typeOfMeat": "N/a",
       "mainField": "Salsa y guarniciones"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
+   
   },
   
   {
@@ -298,16 +266,14 @@ export default [
     "name": "Salsa verde",
     "shortDescription": "Salsa verde mexicana, fresca y picante, hecha con tomatillos, chile serrano, cilantro y cebolla, perfecta para tacos y enchiladas.",
     "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "imageUrl": "https://laopinion.com/wp-content/uploads/sites/3/2020/04/canva-mexican-salsa-verde.jpg",
     "facts": {
       "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "N/a",
       "mainField": "Salsa y guarniciones"
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
+    
   },
   
   {
@@ -315,7 +281,7 @@ export default [
     "name": "Guacamoles",
     "shortDescription": "Guacamole mexicano, cremoso y fresco, hecho con aguacate, tomate, cebolla, cilantro, chile y limón, ideal para acompañar antojitos.",
     "description": "El guacamole es un platillo icónico de la cocina mexicana, conocido por su textura cremosa y su sabor fresco. Se prepara con aguacates maduros triturados, mezclados con tomate picado, cebolla, cilantro, chile (jalapeño o serrano), y jugo de limón, que añade un toque de acidez. Esta combinación de ingredientes crea un dip versátil y delicioso, perfecto para acompañar tortillas de maíz, tacos, nachos y otros antojitos. El guacamole no solo es sabroso, sino también nutritivo, destacando por sus grasas saludables y su contenido de vitaminas y minerales esenciales.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "imageUrl": "https://www.maricruzavalos.com/wp-content/uploads/2010/09/mexican-authentic-guacamole-recipe.jpg",
     "facts": {
      "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
@@ -331,16 +297,14 @@ export default [
     "name": "Pico de gallo",
     "shortDescription": "Pico de gallo, salsa fresca mexicana, hecha con tomate, cebolla, cilantro, chile y limón, ideal para tacos y nachos.",
     "description": "El pico de gallo es una salsa fresca y crujiente típica de la cocina mexicana, conocida por su simplicidad y vibrante sabor. Se elabora con tomate picado, cebolla, cilantro, chile jalapeño o serrano, y jugo de limón. Todos los ingredientes se mezclan para crear una combinación de sabores frescos y picantes que complementan una variedad de platillos. Ideal para acompañar tacos, nachos, quesadillas y carnes asadas, el pico de gallo no solo añade sabor, sino también una textura refrescante y colorida que realza cualquier comida. ",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "imageUrl": "https://uploads.vibra.co/1/2020/11/pico-de-gallo.jpg",
     "facts": {
      "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "N/a",
       "mainField": "Salsa y guarniciones" 
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
+   
   },
   //POSTRES (2)
   {
@@ -348,32 +312,28 @@ export default [
     "name": "Chocolate con chile",
     "shortDescription": "Chocolate con chile, postre mexicano con chocolate oscuro y chiles picantes, combinación única de dulce y picante.",
     "description": "El chocolate con chile es un postre mexicano que mezcla el sabor del chocolate oscuro con el picante de los chiles. Esta combinación de dulce y picante tiene raíces en la tradición culinaria de México, donde el cacao era valorado y consumido con especias, incluidos los chiles. Para preparar este postre, se usa chocolate amargo de alta calidad y se añade chile en polvo o chiles secos molidos. El resultado es una mezcla de sabores complejos que resalta la riqueza del chocolate y el picante del chile. Se sirve caliente como bebida reconfortante o frío como postre indulgente.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "imageUrl": "https://postresaztecas.weebly.com/uploads/4/1/4/5/41453335/7050529_orig.jpg",
     "facts": {
     "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "N/a",
       "mainField": "Postres" 
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
+    
   },
   {
     "id": "Frutas-picantes",
     "name": "Frutas con chile",
     "shortDescription": "Frutas con chile, postre refrescante, combina frutas frescas con chile en polvo, limón y sal, un equilibrio perfecto de sabores.",
     "description": "Las frutas con chile son un popular y tradicional postre mexicano que destaca por su combinación única de sabores. Se prepara utilizando frutas frescas como mango, piña, sandía, pepino, jícama o melón, cortadas en trozos o rodajas. Estas frutas se aderezan típicamente con jugo de limón fresco, sal y chile en polvo, como el conocido Tajín, que añade un toque de picante y sabor salado. La mezcla de sabores dulces, ácidos y picantes crea un contraste delicioso y refrescante, perfecto para consumir como snack en días calurosos o como postre después de una comida. Las frutas con chile son apreciadas no solo por su sabor, sino también por ser una opción saludable y llena de vitaminas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "imageUrl": "https://www.gastronomiaycia.com/wp-content/uploads/2021/07/tajin_especias2-680x520.jpg",
     "facts": {
       "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "N/a",
       "mainField": "Salsa y guarniciones" 
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
+    
   },
   //BEBIDAS PICANTES(1)
   {
@@ -381,14 +341,12 @@ export default [
     "name": "Micheladas",
     "shortDescription": "Refrescante bebida de cerveza mezclada con limón, salsas y chile.Refrescante bebida de cerveza mezclada con limón, salsas y chile.",
     "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://micocinadominicana.com/wp-content/uploads/2017/06/Spicy-Mango-Michelada-Smart-Little-Cookie-5.jpg",
+    "imageUrl": "https://i0.wp.com/www.chicanoeats.com/wp-content/uploads/2019/05/IMG_9275-819x1024.jpg",
     "facts": {
       "placeOrigen": "Mexico,Mexico ",
       "nivelSpicy": "Alto",
       "mainField": "Bebidas Picantes"
     },
-    "extraInfo": {
-      "imageSource": "---"
-    }
+    
   }
 ];
