@@ -11,7 +11,7 @@ export const renderItems = (data) => {
     
     const creoDl = document.createElement("dl");
     crearLi.appendChild(creoDl);
-    creoDl.setAttribute("itemscope","");
+    creoDl.setAttribute("itemscope","");// con el setaaatribute se ESTABLECE el ATRIBUTO DEL itemscop
     creoDl.setAttribute("itemtype","ComidaPicanteMexico");
 
     const paraImg = document.createElement("img");
@@ -21,11 +21,11 @@ export const renderItems = (data) => {
 
     const nameDt = document.createElement("dt");
     creoDl.appendChild(nameDt);
-    nameDt.textContent ="Nombre";
+    nameDt.textContent ="Nombre"; //con textcontet ESTABLECEMOS el TEXTO de DT
     const nameDd =document.createElement("dd");
     creoDl.appendChild(nameDd);
     nameDd.setAttribute("itemprop","name");
-    nameDd.textContent = item.name;
+    nameDd.textContent = item.name;//Establece el CONTENIDO de DD con TEXTCONTET
 
     const shorDescriDt = document.createElement("dt");
     creoDl.appendChild(shorDescriDt);
@@ -37,41 +37,48 @@ export const renderItems = (data) => {
 
     const descriDt = document.createElement("dt");
     creoDl.appendChild(descriDt);
-    shorDescriDt.textContent ="Descripcion ";
+    descriDt.textContent ="Descripcion ";
     const descriDd = document.createElement("dd");
     creoDl.appendChild(descriDd);
-    shorDescriDd.setAttribute("itemprop","Description");
-    shorDescriDd.textContent = item.shortDescription;
+    descriDd.setAttribute("itemprop","description");
+    descriDd.textContent = item.description;
 
+    const placeOrigenDt = document.createElement("dt");
+    creoDl.appendChild(placeOrigenDt);
+    placeOrigenDt.textContent= "Lugar de origen";
+    const placeOrigenDd = document.createElement("dd");
+    creoDl.appendChild(placeOrigenDd);
+    placeOrigenDd.setAttribute("itemprop","placeOrigen");
+    placeOrigenDd.textContent = item.facts.placeOrigen;
     
+    const picanteDt = document.createElement("dt");
+    creoDl.appendChild(picanteDt);
+    picanteDt.textContent = "Nivel de Picante";
+    const picanteDd = document.createElement("dd");
+    creoDl.appendChild(picanteDd);
+    picanteDd.setAttribute("itemprop","nivelSpicy");
+    picanteDd.textContent = item.facts.nivelSpicy;
 
+    const tipoCarneDt = document.createElement("dt");
+    creoDl.appendChild(tipoCarneDt);
+    tipoCarneDt.textContent="Tipo de Carne";
+    const tipoCarneDd = document.createElement("dd");
+    creoDl.appendChild(tipoCarneDd);
+    tipoCarneDd.setAttribute("itemprop","typeOfMeat");
+    tipoCarneDd.textContent = item.facts.typeOfMeat;
 
+    const fieldDt = document.createElement("dt");
+    creoDl.appendChild(fieldDt);
+    fieldDt.textContent = "Tipo de Pedido";
+    const fieldDd = document.createElement("dd");
+    creoDl.appendChild(fieldDd);
+    fieldDd.setAttribute ("itemprop","mainField"); //cambiar mainfiel pot typeOfOrder
+    fieldDd.textContent = item.facts.mainField;
 
-
-
-
-
-
-   
-
-
-    
-    
-    console.log(crearUl);
-
+    /////document.body.appendChild(crearUl);
 
 
   });
 
-
-
-  
-  
-
-
-
-  console.log(data);
-
-  return 'example';
+  return crearUl;
 };
-
