@@ -11,45 +11,36 @@
     <header>
       <h1>COMIDAS TIPICAS MEXICANAS PICANTES</h1>
     </header>
-
-    <nav id="root" > 
-      <ul>
-        <li>
-
-        </li>
-      </ul>
-    </nav>
-
-    <label for="filtrar-tipo-de-pedido">FILTAR POR TIPO DE PEDIO</label>
-    <select data-testid="selec-filter" name="tipo">
-      <option value="principal">Plato Principal</option>
-      <option value="sopas">Sopas y Caldos</option>
-      <option value="antojos">Antojitos y Botanas</option>
-      <option value="bebidas">Bebidas</option>
-      <option value="postres">Postres</option>
-      <option value="salsas">Salsas y Guarniciones</option>
-    </select>
-
-    <label for="filtrar-por-nivel-de-picante">FILTRAR POR NIVEL DE PICANTE</label>
-    <select data-testid="selec-filter" name="picante">
-      <option value="alto"> Alto </option>
-      <option value="medio"> Medio</option>
-      <option value="bajo">Bajo</option>
-    </select>
-
-  <label for="ordenar-de-manera"> Ordenar de manera </label>
-  <select data-testid="select-sort" name="alfabetica">
-    <option value="asc">A - Z</option>
-    <option value="desc">Z - A</option>
-    <!-- creo  que debe ir uno en vacio osea que no ordene nada siento que se quedaria en asd o desc una de eso a la fuerza -->
-
-  </select>
     
+    <div class="flex-container">
+      <label for="filtrar-tipo-de-pedido">TIPO DE PEDIO</label>
+      <select data-testid="selec-filter" name="tipo">
+        <option value="principal">Plato Principal</option>
+        <option value="sopas">Sopas y Caldos</option>
+        <option value="antojos">Antojitos y Botanas</option>
+        <option value="bebidas">Bebidas</option>
+        <option value="postres">Postres</option>
+        <option value="salsas">Salsas y Guarniciones</option>
+      </select>
+      <label for="filtrar-por-nivel-de-picante">NIVEL DE PICANTE</label>
+      <select data-testid="selec-filter" name="picante">
+        <option value="alto"> 🌶️🌶️🌶️ </option>
+        <option value="medio"> 🌶️🌶️</option>
+        <option value="bajo">🌶️</option>
+      </select>
+       <label for="ordenar-de-manera"> Ordenar de manera </label>
+       <select data-testid="select-sort" name="alfabetica">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option><!-- creo  que debe ir uno en vacio osea que no ordene nada siento que se quedaria en asd o desc una de eso a la fuerza -->
+      </select>
+    </div>
+  <div id="root" ></div> <!--4.2 los UL deben estar dentro de X etiqueta con id=root ¿como se mete y en que archivo lo hacemos?-->
     
-    <button data-testid="button clear">Limpiar Orden y Filtros</button>
+    <button data-testid="button clear">Limpiar  Pedido</button>
    
     <footer> 
       <p> SALA DEV 15 Derechos Reservados &copy; 2024</p>
     </footer>
+
   </body>
 </html>
