@@ -8,7 +8,7 @@ export default [
     "imageUrl": "https://www.chilipeppermadness.com/wp-content/uploads/2021/08/Aguachile-Recipe1.jpg",
     "facts": {
       "placeOrigen": "Sinaloa",
-      "nivelSpicy": "Alto",
+      "nivelSpicy": "Alto ",
       "typeOfMeat": "Mariscos",
       "mainField": "Plato Principal"
     },
