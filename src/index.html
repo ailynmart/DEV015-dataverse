@@ -13,8 +13,8 @@
     </header>
     
     <div class="flex-container">
-      <label for="filtrar-tipo-de-pedido">TIPO DE PEDIO</label>
-      <select data-testid="selec-filter" name="tipo">
+      <label for="filtro-pedido">TIPO DE PEDIO</label>
+      <select data-testid="select-filter" name="pedido" id="filtro-pedido">
         <option value="principal">Plato Principal</option>
         <option value="sopas">Sopas y Caldos</option>
         <option value="antojos">Antojitos y Botanas</option>
@@ -22,25 +22,25 @@
         <option value="postres">Postres</option>
         <option value="salsas">Salsas y Guarniciones</option>
       </select>
-      <label for="filtrar-por-nivel-de-picante">NIVEL DE PICANTE</label>
-      <select data-testid="selec-filter" name="picante">
+      <label for="filtro-picante">NIVEL DE PICANTE</label>
+      <select data-testid="select-filterPicante" name="picante" id="filtro-picante"> <!-- CAMBIE NOMBRE DE DATA TESTID -->
         <option value="alto"> 🌶️🌶️🌶️ </option>
         <option value="medio"> 🌶️🌶️</option>
         <option value="bajo">🌶️</option>
       </select>
-       <label for="ordenar-de-manera"> Ordenar de manera </label>
-       <select data-testid="select-sort" name="alfabetica">
+       <label for="filtro-alfabetica"> Ordenar de manera </label>
+       <select data-testid="select-sort" name="alfabetica" id="filtro-alfabetica">
         <option value="asc">A - Z</option>
         <option value="desc">Z - A</option><!-- creo  que debe ir uno en vacio osea que no ordene nada siento que se quedaria en asd o desc una de eso a la fuerza -->
       </select>
     </div>
   <div id="root" ></div> <!--4.2 los UL deben estar dentro de X etiqueta con id=root ¿como se mete y en que archivo lo hacemos?-->
     
-    <button data-testid="button clear">Limpiar  Pedido</button>
+    <button data-testid="button-clear">Limpiar  Pedido</button>
    
-    <footer> 
+     <!--<footer> 
       <p> SALA DEV 15 Derechos Reservados &copy; 2024</p>
-    </footer>
+    </footer>-->
 
   </body>
 </html>
