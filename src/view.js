@@ -75,7 +75,9 @@ export const renderItems = (data) => {
     fieldDd.setAttribute ("itemprop","mainField"); //cambiar mainfiel pot typeOfOrder
     fieldDd.textContent = item.facts.mainField;
 
-    /////document.body.appendChild(crearUl);
+    //document.body.appendChild(crearUl);
+
+   
 
 
   });
