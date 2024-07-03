@@ -1,4 +1,4 @@
-export default [
+export default[
   {
     //PLATOS PRINCIPALES (10)
     "id": "aguachile-verde",
@@ -151,7 +151,7 @@ export default [
       "placeOrigen": "Mexico,Mexico",
       "nivelSpicy": "Alto",
       "typeOfMeat": "Cerdo",
-      "mainField": " Sopa"
+      "mainField": " Sopas y caldos"
     },
    
   },
@@ -166,7 +166,7 @@ export default [
       "placeOrigen": "Tlalpan",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "Pollo",
-      "mainField": "Sopa"
+      "mainField": "Sopas y caldos"
     },
    
   },
@@ -180,7 +180,7 @@ export default [
       "placeOrigen": "Mexico,Mexico",
       "nivelSpicy": "Alto",
       "typeOfMeat": "Res",
-      "mainField": "Caldo"
+      "mainField": "Sopas y caldos"
     },
     
   },
@@ -197,9 +197,7 @@ export default [
       "typeOfMeat": "Pollo",
       "mainField": "Antojos, Botanas"
     },
-    "extraInfo": {
-      "imageSource": "---"
-    }
+   
   },
   
   {
@@ -225,6 +223,7 @@ export default [
     "facts": {
       "placeOrigen": "Mexico,Mexico",
       "nivelSpicy": "Bajo",
+      "typeOfMeat": "N/A",
       "mainField": "Antojos, Botanas"
     },
    
@@ -241,9 +240,7 @@ export default [
       "typeOfMeat": "Camarón",
       "mainField": "Antojitos y Botanas"
     },
-    "extraInfo": {
-      "imageSource": ""
-    }
+    
   },
   //SALSAS Y GUANICIONES (4)
   {
@@ -288,9 +285,8 @@ export default [
       "typeOfMeat": "N/a",
       "mainField": "Salsa y guarniciones"
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
+   
+  
   },
   {
     "id": "Pico-de-gallo",
@@ -331,7 +327,7 @@ export default [
       "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "N/a",
-      "mainField": "Salsa y guarniciones" 
+      "mainField": "Postres" 
     },
     
   },
@@ -345,7 +341,8 @@ export default [
     "facts": {
       "placeOrigen": "Mexico,Mexico ",
       "nivelSpicy": "Alto",
-      "mainField": "Bebidas Picantes"
+      "mainField": "Bebidas Picantes",
+      "typeOfMeat": "N/A" // Añadir esto si no aplica
     },
     
   }
