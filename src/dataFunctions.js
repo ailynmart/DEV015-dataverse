@@ -1,7 +1,10 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
 export const filterData = (data, filterBy, value) => { //H3-1.3 
-  return 'filterData';
+  
+  const filtroTipoPlatos = data.filter((item) => item.facts[filterBy] === value);
+  return filtroTipoPlatos;
+  
 };
 
 export const sortData = (data, sortBy, sortOrder) => { // se caMbia ANOTHERNXAMPLE POR SORTBY
