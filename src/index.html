@@ -7,13 +7,55 @@
   </head>
   <body>
     <script src="main.js" type="module"></script>
+    <header>
+      <h1>COMIDAS TIPICAS MEXICANAS PICANTES</h1>
+    </header>
+    <div class="flex-container">
+      <label for="filtro-pedido">TIPO DE PEDIDO</label>
+      <select data-testid="select-filter" name="pedido" id="filtro-pedido">
+        <option value="Bebidas Picantes">Bebidas</option>
+        <option value="Plato Principal">Plato Principal</option>
+        <option value="Sopas y Caldos">Sopas y Caldos</option>
+        <option value="Antojitos y Botanas">Antojitos y Botanas</option>
+        <option value="Postres">Postres</option>
+        <option value="Salsas y Guarniciones">Salsas y Guarniciones</option>
+      </select>
+      <label for="filtro-picante">NIVEL DE PICANTE</label>
+      <select data-testid="select-filterPicante" name="picante" id="filtro-picante">
+        <option value="Alto"> 🌶️🌶️🌶️ </option>
+        <option value="Medio"> 🌶️🌶️</option>
+        <option value="Bajo">🌶️</option>
+      </select>
+      <label for="filtro-alfabetica"> Ordenar de manera </label>
+      <select data-testid="select-sort" name="alfabetica" id="filtro-alfabetica">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
+    </div>
+    <div id="root"></div>
+    <div id="resultado-container"></div>
+    <button data-testid="button-clear">Limpiar Pedido</button>
+  </body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dataverse</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <script src="main.js" type="module"></script>
     
     <header>
       <h1>COMIDAS TIPICAS MEXICANAS PICANTES</h1>
     </header>
     
     <div class="flex-container">
-      <label for="filtro-pedido">TIPO DE PEDIO</label>
+      <label for="filtro-pedido">TIPO DE PEDIDO</label>
       <select data-testid="select-filter" name="pedido" id="filtro-pedido">
         <option value="principal">Plato Principal</option>
         <option value="sopas">Sopas y Caldos</option>
@@ -23,7 +65,7 @@
         <option value="salsas">Salsas y Guarniciones</option>
       </select>
       <label for="filtro-picante">NIVEL DE PICANTE</label>
-      <select data-testid="select-filterPicante" name="picante" id="filtro-picante"> <!-- CAMBIE NOMBRE DE DATA TESTID -->
+      <select data-testid="select-filterPicante" name="picante" id="filtro-picante"> 
         <option value="alto"> 🌶️🌶️🌶️ </option>
         <option value="medio"> 🌶️🌶️</option>
         <option value="bajo">🌶️</option>
@@ -31,16 +73,18 @@
        <label for="filtro-alfabetica"> Ordenar de manera </label>
        <select data-testid="select-sort" name="alfabetica" id="filtro-alfabetica">
         <option value="asc">A - Z</option>
-        <option value="desc">Z - A</option><!-- creo  que debe ir uno en vacio osea que no ordene nada siento que se quedaria en asd o desc una de eso a la fuerza -->
+        <option value="desc">Z - A</option>  
       </select>
     </div>
-  <div id="root" ></div> <!--4.2 los UL deben estar dentro de X etiqueta con id=root ¿como se mete y en que archivo lo hacemos?-->
-    
+  <div id="root"></div> 
+  <div id="resultado-container"></div>
+
     <button data-testid="button-clear">Limpiar  Pedido</button>
    
-     <!--<footer> 
+     <footer> 
       <p> SALA DEV 15 Derechos Reservados &copy; 2024</p>
-    </footer>-->
+    </footer>
 
   </body>
 </html>
+-->
