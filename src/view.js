@@ -26,12 +26,12 @@ export const renderItems = (data) => {
   return ul;
 };
 
-// src/view.js
-export function updateResult(result) {
-  document.querySelector('#result').textContent = result;
-}
 
-// Aquí podrías agregar funciones adicionales para manejar otras actualizaciones de la interfaz.
+export function updateResult(result) { //Esto hace que la función updateResult esté disponible para ser importada en otros archivos. En este caso, se está utilizando en main.js. function updateResult(result): Declara una función llamada updateResult que toma un parámetro llamado result.
+  document.querySelector('#result').textContent = result;   //document es el objeto global que representa el documento HTML cargado en el navegador. querySelector('#result') selecciona el primer elemento en el documento que coincide con el selector CSS #result. En este caso, selecciona el elemento con el id result.
+}                                                           //textContent es una propiedad del objeto Element que establece o devuelve el contenido textual de un elemento. = result: Asigna el valor de result a la propiedad textContent del elemento seleccionado. Esto actualiza el contenido textual del elemento en la interfaz de usuario con el valor pasado a la función updateResult.
+
+
 
 
 
