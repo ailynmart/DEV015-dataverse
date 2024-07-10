@@ -1,74 +1,103 @@
 
-body{
-   
-    background-image: url('https://www.mexicodesconocido.com.mx/wp-content/uploads/2023/01/comida-picante-mexicana.jpg');
-    background: size 0; /* Para cubrir toda la pantalla */
-    background-position: center; /* Para centrar la imagen */
+body {
+  background-image: url('https://th.bing.com/th/id/OIP.nMRJzu5unEeFbO6utng6oQHaEK?rs=1&pid=ImgDetMain');
+  background-size: 90vw; /* Para cubrir toda la pantalla */
+  background-position: center; /* Para centrar la imagen */
+  background-color: rgba(0, 0, 0, 0.911); /* Fondo semi-transparente negro (aumenta el último valor para hacerlo más opaco) */
 }
+
 header {
-  color: #e6bc96;
-  background: hsla(0, 100%, 18%, 0.849);
-  border: 1px solid;
-  box-shadow: 0px 2px 8px 0px #ee7777f1;
-  border-radius: 10px;
-  padding: 10px 10px 10px 10px;
-  font-size: 12px; /* Tamaño de la fuente */
-  text-align: center; /* Alinear texto al centro */
-  margin: 0 auto; /* Centrar horizontalmente */
-  width: 450px; 
-  height: 30px;
+color: #f7f7f7;
+background: hsla(0, 100%, 10%, 0.849);
+border: 1px solid;
+box-shadow: 0px 2px 8px 0px #611f1ff1;
+border-radius: 10px;
+padding: 10px 10px 10px 10px;
+font-size: 12px; /* Tamaño de la fuente */
+text-align: center; /* Alinear texto al centro */
+margin: 0 auto; /* Centrar horizontalmente */
+width: 450px;
+height: 30px;
 }
+
+
+
 
 
 
 img{
-    width: 50%;
-    height: auto;
-  }
+  width: 50%;
+  height: auto;
+}
 ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    gap: 1em;
-    padding: 1em;
-    list-style: none;
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 1em;
+  padding: 1em;
+  list-style: none;
+  width: 100%;
+}
 
-  li {
-    background-color: rgba(255, 138, 138, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(141, 18, 2);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    /* Se ajusta el flex-basis para tener en cuenta el margen y el relleno */
-    flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
-    margin: 15px; /* Se reduce el margen para ajustar las tarjetas */
-    padding: 0 1em;
-    justify-content: space-between;
-  }
-  .flex-container {
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos uniformemente */
-    align-items: center; /* Centra los elementos verticalmente */
-    background-color:#ffb0aa; /* Color de fondo */
-    padding: 4px 6px; /* Relleno interno */
-    border-radius: 2px; /* Bordes redondeados */
-    box-shadow: 0px 2px 4px #e40606fb; /* Sombra suave */
-    margin: 10px auto; /* Margen alrededor del contenedor DE FILTROS*/
-    width: 100%; /* Ocupa todo el ancho disponible */
-    max-width: 100%; /* Asegura que no sea más ancho que el padre */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
-  }
+
+li {
+  color: #fff7f7;
+  background-color: rgba(63, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(153, 0, 0);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* Se ajusta el flex-basis para tener en cuenta el margen y el relleno */
+  flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
+  margin: 15px; /* Se reduce el margen para ajustar las tarjetas */
+  padding: 0 1em;
+  justify-content: space-between;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos uniformemente */
+  align-items: center; /* Centra los elementos verticalmente */
+  background-color:#410400; /* Color de fondo */
+  padding: 4px 6px; /* Relleno interno */
+  border-radius: 2px; /* Bordes redondeados */
+  box-shadow: 0px 2px 4px #e40606fb; /* Sombra suave */
+  margin: 10px auto; /* Margen alrededor del contenedor DE FILTROS*/
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 100%; /* Asegura que no sea más ancho que el padre */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+}
+
 
 footer{
-    background-color: rgb(133, 18, 18);
-    text-align: center;
-    color: rgb(226, 81, 14);
-    position:absolute;    
-    width: 100%;
-    bottom: 0;
+  background-color: rgb(65, 0, 0);
+  text-align: center;
+  color: rgb(184, 0, 0);
+  position:absolute;    
+  width: 100%;
+  bottom: 0;
+}
+/* En src/styles.css */
+
+
+#calculationType, #calculateButton {
+padding: 8px;
+font-size: 14px;
+margin-right: 10px;
+border-radius: 5px;
+}
+
+
+#calculateButton {
+background-color: #6b0000; /* Green */
+color: rgb(163, 0, 0);
+border: none;
+cursor: pointer;
+}
+
+
+#calculationType {
+border: 1px solid #080000;
 }
