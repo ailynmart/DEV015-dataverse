@@ -26,6 +26,7 @@ header {
   box-shadow: 0px 2px 8px 0px #ee7777f1;
   border-radius: 10px;
   padding: 10px;
+  padding: 10px;
   font-size: 12px; /* Tamaño de la fuente */
   text-align: center; /* Alinear texto al centro */
   margin: 20px auto; /* Centrar horizontalmente */
@@ -33,6 +34,9 @@ header {
   height: 30px;
 }
 img{
+  width: 50%;
+  height: auto;
+}
   width: 50%;
   height: auto;
 }
