@@ -44,3 +44,5 @@ export function computeSpicinessLevels(data) {
 export function computeCountAboveThreshold(data, threshold) { //es un método de los arrays en JavaScript que crea un nuevo array con todos los elementos que pasan una prueba definida por una función. La función (item => item.spiciness > threshold) verifica si el nivel de picante de cada platillo es mayor que el umbral (threshold).
   return data.filter(item => item.spiciness > threshold).length;  //El resultado de filter es un nuevo array con los platillos que tienen un nivel de picante mayor que el umbral. length Devuelve la cantidad de elementos en el array filtrado, es decir, el número de platillos con un nivel de picante mayor que el umbral.
 }
+
+

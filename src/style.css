@@ -1,6 +1,5 @@
 
-body{
-   
+body {
   background-image: url('https://img.freepik.com/fotos-premium/chile-rojo-llama-fuego-ardiente-olla-caliente-sobre-fondo-negro-ia-generativa_10307-2810.jpg');
   background-size: cover; /* Para cubrir toda la pantalla */
   background-position: center; /* Para centrar la imagen */
@@ -11,31 +10,33 @@ body{
 }
 h1{
   font-size: 24px; /* Tamaño de la fuente */
-  color: #e6bc96; /* Color del texto */
+  color: #E6BC96; /* Color del texto */
   text-align: center; /* Alinear el texto al centro */
   margin: 0; /* Quitar el margen predeterminado */
   padding: 0; /* Quitar el relleno predeterminado */
   font-family: 'Georgia', serif; /* Familia de fuentes */
   font-weight: bold; /* Grosor de la fuente */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
-  letter-spacing: 10px; /* Espaciado entre letras */
+  letter-spacing: 1px; /* Espaciado entre letras */
 }
 header {
-  color: #e6bc96;
+  color: #E6BC96;
   background: hsla(0, 100%, 18%, 0.849);
   border: 1px solid;
   box-shadow: 0px 2px 8px 0px #ee7777f1;
   border-radius: 10px;
   padding: 10px;
+  padding: 10px;
   font-size: 12px; /* Tamaño de la fuente */
   text-align: center; /* Alinear texto al centro */
   margin: 20px auto; /* Centrar horizontalmente */
-  width: 450px; 
+  width: 450px;
   height: 30px;
 }
-
-
 img{
+  width: 50%;
+  height: auto;
+}
   width: 50%;
   height: auto;
 }
@@ -50,7 +51,6 @@ ul {
   list-style: none;
   width: 100%;
 }
-
 li {
   background-color: rgba(94, 83, 83, 0.8); /* Rojo oscuro */
   border-radius: 10px;
@@ -62,99 +62,69 @@ li {
   margin: 15px; /* Se reduce el margen para ajustar las tarjetas */
   padding: 1em;
   justify-content: space-between;
-  text-align: justify center; /* Alinear texto al centro */
-}
-li:hover{
-  transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
-  background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
-  color: #e6bc96;
+  text-align: center; /* Alinear texto al centro */
 }
 .flex-container {
   display: flex;
   justify-content: space-between; /* Distribuye los elementos uniformemente */
   align-items: center; /* Centra los elementos verticalmente */
   background-color: #333; /* Gris oscuro */
-  padding: 3px 2px; /* Relleno interno */
-  border-radius: 15px; /* Bordes redondeado */
-  box-shadow: 0px 2px 4px #e47106fb; /* Sombra suave */
-  margin: 5px auto; /* Margen alrededor del contenedor de filtros */
-  width: 83%; /* Ocupa todo el ancho disponible */
+  padding: 4px 6px; /* Relleno interno */
+  border-radius: 2px; /* Bordes redondeados */
+  box-shadow: 0px 2px 4px #e40606fb; /* Sombra suave */
+  margin: 10px auto; /* Margen alrededor del contenedor de filtros */
+  width: 100%; /* Ocupa todo el ancho disponible */
   max-width: 100%; /* Asegura que no sea más ancho que el padre */
   flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
 }
-.flex-container:hover{
-  transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
-  background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
-  color: #e6bc96;
-
-}
-
 .calculatores {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2px auto;
-  padding: 1px;
-  border-radius: 40px;
-  background-color: rgba(143, 130, 125, 0.603); /* Rojo oscuro */
-  /*box-shadow: 0 4px 8px rgb(0, 77, 17);  Sombra oscura */
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(128, 0, 0, 0.8); /* Rojo oscuro */
+  box-shadow: 0 4px 8px rgb(77, 0, 0); /* Sombra oscura */
   width: 450px;
 }
-.calculatores:hover{
-  transform: scale(1.25); /*al pasar el cursor camnia tamaño*/
-  background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
-}
-
 select {
   padding: 10px;
-  border: 1px solid #ee0d0d;
+  border: 1px solid #EE0D0D;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #55524e; /* Color de fondo del select */
+  background-color: #55524E; /* Color de fondo del select */
   color: #160202; /* Color del texto */
   margin-right: 10px;
 }
-
 button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #f73707; /* Naranja */
-  color: #0f0707; /* Color del texto */
+  background-color: #F73707; /* Naranja */
+  color: #0F0707; /* Color del texto */
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(228, 5, 5, 0.658); /* Sombra */
   transition: background-color 0.3s ease;
 }
-
 button:hover {
-  background-color: #faf5f5; /*CAMBIA COLOR al pasar el cursor */
+  background-color: #FAF5F5; /*CAMBIA COLOR al pasar el cursor */
 }
-
 #result {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
-  border-radius: 3rem;
-  background-color: rgba(134, 15, 15, 0.281);
-  box-shadow:  8px rgba(179, 11, 11, 0.644);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
   text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff8f4;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  opacity: 1;
-  animation: fadeIn 1s forwards;
-  transition: transform 0.3s ease;
-}
-#result:hover {
-  transform: scale(1.15);
-  background-color: #af999994;
-  
+  font-size: 16px;
+  color: #FF0000; /* Color del texto */
 }
 footer{
   background-color: #333; /* Gris oscuro */
   text-align: center;
-  color: #e6510e; /* Naranja */
+  color: #E6510E; /* Naranja */
   padding: 10px 0;
   width: 100%;
   margin-top: auto; /* Empuja el footer al final */
