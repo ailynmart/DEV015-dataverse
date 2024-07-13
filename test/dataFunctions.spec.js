@@ -1,18 +1,28 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { filterData, sortData } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 console.log(fakeData);
 
-describe('example', () => {
+describe('filterData', () => {
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('debera retornar los platos  que cumplan el filtro postres', () => {
+    const tipodePlato = filterData(fakeData,"Postres");
+    expect(tipodePlato.length).toBe(2);
   });
 });
 
-describe('anotherExample', () => {
+describe('sortData', () => {
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it('debera ordenar los platos de forma asc por nombre', () => {
+    const ordenAscen = sortData(fakeData,'name', 'asc')
+    expect(ordenAscen[0].name).toBe('Micheladas');
+  });
+  it("debera ordenar los platos de forma desc por nombre", () => {
+    const ordenDesc = sortData(fakeData, "name", "desc");
+    expect(ordenDesc).toEqual([...fakeData].sort((a, b) => b.name.localeCompare(a.name)));
   });
 });
+
+
+//segun el README En este archivo tendrás hacer pruebas unitarias de 
+//las funciones implementadas en el archivo dataFunctions.js. (filterBy, sortBy, etc.)

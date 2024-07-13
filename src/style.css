@@ -20,6 +20,7 @@ h1{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
   letter-spacing: 10px; /* Espaciado entre letras */
 }
+
 header {
   color: #e6bc96;
   background: hsla(0, 100%, 18%, 0.849);
@@ -89,7 +90,7 @@ li:hover{
 
 }
 
-.calculatores {
+/*.calculatores {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,12 +99,12 @@ li:hover{
   border-radius: 40px;
   background-color: rgba(143, 130, 125, 0.603); /* Rojo oscuro */
   /*box-shadow: 0 4px 8px rgb(0, 77, 17);  Sombra oscura */
-  width: 450px;
-}
+  /*width: 450px;
+/*}
 .calculatores:hover{
   transform: scale(1.25); /*al pasar el cursor camnia tamaño*/
-  background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
-}
+  /*background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
+/*}*/
 
 select {
   padding: 10px;
@@ -114,7 +115,28 @@ select {
   color: #160202; /* Color del texto */
   margin-right: 10px;
 }
+/* Estilos específicos para el select con id calculationType */
+#calculationType {
+  border: 2px solid #ff5e00d2; /* Color del borde */
+  background-color: #eb25066b; /* Color de fondo */
+  color: #040505; /* Color del texto */
+  font-weight: bold;
+  box-shadow:0 4px 8px #d7ee0dc7;
+}
 
+/* Interactividad en hover */
+#calculationType:hover {
+  background-color: #ff0000;
+  color: white;
+  cursor: pointer;
+}
+
+/* Estilo para las opciones dentro del select */
+#calculationType option {
+  background-color: white;
+  color: #ff0000;
+  padding: 10px;
+}
 button {
   padding: 10px 20px;
   border: none;
@@ -130,8 +152,34 @@ button {
 button:hover {
   background-color: #faf5f5; /*CAMBIA COLOR al pasar el cursor */
 }
-
+/* Estilo básico para el div */
 #result {
+  text-align: center;
+  width: 300px; /* Ancho fijo */
+  height: 50px; /* Alto fijo */
+  padding: 15px;
+  border: 2px solid #c7230694; /* Borde */
+  border-radius: 10px;
+  background-color: #94909085; /* Color de fondo */
+  color: #080606; /* Color del texto */
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Transición para suavizar los cambios */
+  overflow: auto; /* Para manejar contenido desbordante */
+  margin: 20px auto; /* Centrado horizontalmente */
+  box-shadow: 0 4px 8px rgba(218, 6, 6, 0.568); /* Sombra */
+}
+
+/* Interactividad en hover */
+#result:hover {
+  background-color: #ce060691;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+
+/*#result {
   margin-top: 10px;
   padding: 10px;
   border-radius: 3rem;
@@ -150,7 +198,7 @@ button:hover {
   transform: scale(1.15);
   background-color: #af999994;
   
-}
+}*/
 footer{
   background-color: #333; /* Gris oscuro */
   text-align: center;
