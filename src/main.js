@@ -41,7 +41,7 @@ botonLimpiar.addEventListener("click", () => {
   rootH.innerHTML = "";
   rootH.appendChild(renderItems(data));
 });
-
+//hito4
 //son funciones importadas desde dataFunctions.js. Estas funciones realizan diversos cálculos sobre los datos de platos picantes.
 import { computeAverageSpiciness, computeHottestDish, computeMildestDish, computeSpicinessLevels} from './dataFunctions.js';
 //es una función importada desde view.js, la cual actualiza la interfaz de usuario con los resultados de los cálculos.

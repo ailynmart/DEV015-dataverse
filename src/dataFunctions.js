@@ -11,7 +11,7 @@ export const sortData = (data, property, ascending = true) => {
     return 0;
   });
 };
-
+//hito 4
 //Esta función calcula el promedio del nivel de picante de los platillos.
 export function computeAverageSpiciness(data) {   
   const totalSpiciness = data.reduce((sum, item) => sum + item.spiciness, 0);     //reduce es un método de los arrays en JavaScript que aplica una función sobre un acumulador (en este caso sum) y cada elemento del array (item) para reducirlo a un único valor.

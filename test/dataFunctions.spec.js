@@ -23,6 +23,6 @@ describe('sortData', () => {
   });
 });
 
-
+console.log(sortData);
 //segun el README En este archivo tendrás hacer pruebas unitarias de 
 //las funciones implementadas en el archivo dataFunctions.js. (filterBy, sortBy, etc.)

@@ -1,7 +1,7 @@
 
 body{
    
-  background-image: url('https://img.freepik.com/fotos-premium/chile-rojo-llama-fuego-ardiente-olla-caliente-sobre-fondo-negro-ia-generativa_10307-2810.jpg');
+  background-image: url('https://images3.alphacoders.com/646/646207.jpg');
   background-size: cover; /* Para cubrir toda la pantalla */
   background-position: center; /* Para centrar la imagen */
   background-repeat: no-repeat; /* Evitar que la imagen se repita */
@@ -37,8 +37,13 @@ header {
 
 
 img{
-  width: 50%;
-  height: auto;
+  width: 100%; /* Ancho de la imagen igual al del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+  object-fit:cover; /* Asegurarse de que la imagen cubra el área del contenedor */
+  max-height: calc(5 / 20 * 100%); /* Imagen ocupa 3/4 de la tarjeta */
+ 
+ /* width: 50%;
+  height: auto;*/
 }
 ul {
   display: flex;
@@ -46,35 +51,36 @@ ul {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
-  gap: 1em;
-  padding: 1em;
+  gap: 2em;
+  padding: 5px;
   list-style: none;
   width: 100%;
 }
 
 li {
-  background-color: rgba(94, 83, 83, 0.8); /* Rojo oscuro */
+  background-color: rgba(105, 50, 4, 0.836); /* Rojo oscuro */
+  color: #f1ebe3;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgb(77, 0, 0); /* Sombra oscura */
+  box-shadow: 0 1px 2px rgb(77, 0, 0); /* Sombra oscura */
   display: flex;
   flex-direction: column;
   overflow: hidden;
   flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
-  margin: 15px; /* Se reduce el margen para ajustar las tarjetas */
-  padding: 1em;
+  margin: 5px; /* Se reduce el margen para ajustar las tarjetas */
+  padding: 2px;
   justify-content: space-between;
   text-align: justify center; /* Alinear texto al centro */
 }
 li:hover{
   transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
-  background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
-  color: #e6bc96;
+  background-color: #3b1801a1; /*CAMBIA COLOR al pasar el cursor */
+  color: #f8f0f0;
 }
 .flex-container {
   display: flex;
   justify-content: space-between; /* Distribuye los elementos uniformemente */
   align-items: center; /* Centra los elementos verticalmente */
-  background-color: #333; /* Gris oscuro */
+  background-color: #4e3105; /* Gris oscuro */
   padding: 3px 2px; /* Relleno interno */
   border-radius: 15px; /* Bordes redondeado */
   box-shadow: 0px 2px 4px #e47106fb; /* Sombra suave */

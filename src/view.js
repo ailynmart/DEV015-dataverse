@@ -24,7 +24,7 @@ export const renderItems = (data) => {
   });
   // Retorna el elemento <ul> con todos los elementos <li> creados
   return ul;
-};
+};        
 
 // src/view.js
 export function updateResult(result) {
