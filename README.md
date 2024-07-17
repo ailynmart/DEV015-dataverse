@@ -21,7 +21,7 @@ Estadísticas de los platillos disponibles en el menú,en la cual puedes selecci
 
 ## 4. Historias de Usuario
 Sprint 1
-Para generar la data elegimos un tema. -Escribir un prompt para que la IA nos genere la data de acuerdo al tema escogido. -Testear la data generada por la IA para confirmar que cumpla los requisitos. -Editar el prompt según errores arrojados por el test y repetir. 
+Para generar la data elegimos un tema. -Escribir un prompt para que la IA nos genere la data de acuerdo al tema escogido. -Testear la data generada por la IA para confirmar que cumpla los requisitos. -Editar el prompt según errores arrojados por el test y repetir.. 
 
 Sprint 2
 Como usuari@s necesitamos que la data se visualice como tarjetas en la página web y que estas tarjetas se adecuen a cualquier tamaño de dispositivo.
