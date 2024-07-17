@@ -201,7 +201,7 @@ button:hover {
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra 
   text-align: center;
   font-size: 24px;
   font-weight: bold;
@@ -210,7 +210,7 @@ button:hover {
   opacity: 1;
   animation: fadeIn 1s forwards;
   transition: transform 0.3s ease;
-}
+}*/
 #result:hover {
   transform: scale(1.15);
   background-color: #af999994;
