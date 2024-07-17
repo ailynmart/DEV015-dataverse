@@ -35,26 +35,20 @@ header {
   height: 30px;
 }
 
-
-img{
-  width: 100%; /* Ancho de la imagen igual al del contenedor */
-  height: auto; /* Mantener la proporción de la imagen */
-  object-fit:cover; /* Asegurarse de que la imagen cubra el área del contenedor */
-  max-height: calc(5 / 20 * 100%); /* Imagen ocupa 3/4 de la tarjeta */
- 
- /* width: 50%;
-  height: auto;*/
+img {
+  width: 75%; /* Ocupa 3/4 del contenedor */
+  height: auto;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  display: block; /* Asegura que el margen auto funcione */
 }
+
 ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  gap: 2em;
-  padding: 5px;
-  list-style: none;
-  width: 100%;
+  list-style-type: none; /* Quita el estilo de lista predeterminado */
+  padding: 0; /* Quita el padding del contenedor ul */
+  margin: 0; /* Quita el margen del contenedor ul */
+  display: flex; /* Aplica flexbox al contenedor ul */
+  flex-wrap: wrap; /* Permite que los elementos li se envuelvan en varias filas */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
 }
 
 li {
@@ -65,11 +59,29 @@ li {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
-  margin: 5px; /* Se reduce el margen para ajustar las tarjetas */
-  padding: 2px;
+  flex-basis: calc(33.333% - 10px); /* Ajustar el ancho de las tarjetas */
+  margin: 5px; /* Reducir el margen para ajustar las tarjetas */
+  padding: 10px; /* Ajustar el padding para hacer las tarjetas más compactas */
   justify-content: space-between;
-  text-align: justify center; /* Alinear texto al centro */
+  align-items: center; /* Centrar contenido horizontalmente */
+  font-size: 12px; /* Reducir el tamaño de la fuente */
+  line-height: 1.2; /* Ajustar la altura de línea */
+  text-align: center; /* Alinear texto al centro */
+  box-sizing: border-box; /* Incluir el padding y borde en el tamaño total */
+}
+
+/* Asegura que haya tres columnas en pantallas más pequeñas */
+@media (max-width: 768px) {
+  li {
+    flex-basis: calc(50% - 10px); /* Ajustar el ancho de las tarjetas para dos columnas */
+  }
+}
+
+/* Asegura que haya una columna en pantallas aún más pequeñas */
+@media (max-width: 480px) {
+  li {
+    flex-basis: 100%; /* Ajustar el ancho de las tarjetas para una columna */
+  }
 }
 li:hover{
   transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
