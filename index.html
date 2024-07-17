@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dataverse</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <script src="main.js" type="module"></script>
+    <header>
+      <h1>MEXICO PICANTE</h1>
+    </header>
+    <div class="flex-container">
+      <label for="filtro-pedido">TIPO DE PEDIDO</label>
+      <select data-testid="select-filter" name="pedido" id="filtro-pedido">
+        <option value="Bebidas Picantes">Bebidas</option>
+        <option value="Plato Principal">Plato Principal</option>
+        <option value="Sopas y Caldos">Sopas y Caldos</option>
+        <option value="Antojitos y Botanas">Antojitos y Botanas</option>
+        <option value="Postres">Postres</option>
+        <option value="Salsa y guarniciones">Salsas y Guarniciones</option>
+      </select>
+      
+      
+      <label for="filtro-picante">NIVEL DE PICANTE</label>
+      <select data-testid="select-filterPicante" name="picante" id="filtro-picante">
+        <option value="Alto"> 🌶️🌶️🌶️ </option>
+        <option value="Medio"> 🌶️🌶️</option>
+        <option value="Bajo">🌶️</option>
+      </select>
+
+      <label for="filtro-alfabetica"> Ordenar de manera </label>
+      <select data-testid="select-sort" name="alfabetica" id="filtro-alfabetica">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
+    </div>
+     <button data-testid="button-clear">Limpiar Pedido</button>
+    <div id="root"></div>
+    <div id="resultado-container"></div>
+
+   
+      
+    <label for="calculationType">Tipo de Cálculo</label>
+    <select id="calculationType" name="calculationType">
+      <option value="averageSpiciness">Promedio de picante</option>
+      <option value="hottestDish">Platillo más picante</option>
+      <option value="mildestDish">Platillo menos picante</option>
+      <option value="spicinessLevels">Niveles de picante</option>
+    </select>
+
+    <button id="calculateButton">Calcular</button>
+    <div id="result"></div>
+
+<!--checar esto
+    <ul id="data-list">-->
+      <!-- Ejemplo de elementos de datos, asegúrate de que tus datos se rendericen de esta manera
+      <li itemtype="https://schema.org/FoodEstablishment">Tacos al pastor - Picor: Bajo</li>
+      <li itemtype="https://schema.org/FoodEstablishment">Chiles en nogada - Picor: Medio</li>
+      <li itemtype="https://schema.org/FoodEstablishment">Aguachile - Picor: Alto</li>
+    </ul>-->
+    <footer>
+      <p>BRIGLYN</p>
+    </footer>
+  </body>
+</html>
