@@ -24,7 +24,7 @@ export function computeHottestDish(data) {
   return data.reduce((hottest, item) => (item.spiciness > hottest.spiciness ? item : hottest), data[0]); //reduce recorre cada platillo (item) comparando su nivel de picante (item.spiciness) con el del platillo más picante encontrado hasta el momento (hottest.spiciness).Si el nivel de picante del platillo actual es mayor que el del platillo más picante encontrado hasta ahora, actualiza hottest con el platillo actual (item), de lo contrario, mantiene hottest. data[0] es el valor inicial de hottest, comenzando con el primer platillo del array.
 
 }
-
+//hito 4
 //Esta función encuentra el platillo menos picante.
 export function computeMildestDish(data) {   //Similar a computeHottestDish, pero compara si el nivel de picante del platillo actual es menor que el del platillo menos picante encontrado hasta el momento.
   return data.reduce((mildest, item) => (item.spiciness < mildest.spiciness ? item : mildest), data[0]); //Si el nivel de picante del platillo actual es menor, actualiza mildest con el platillo actual (item), de lo contrario, mantiene mildest.

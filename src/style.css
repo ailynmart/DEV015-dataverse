@@ -1,6 +1,5 @@
-
-body {
-  background-image: url('https://img.freepik.com/fotos-premium/chile-rojo-llama-fuego-ardiente-olla-caliente-sobre-fondo-negro-ia-generativa_10307-2810.jpg');
+body{
+  background-image: url('https://images3.alphacoders.com/646/646207.jpg');
   background-size: cover; /* Para cubrir toda la pantalla */
   background-position: center; /* Para centrar la imagen */
   background-repeat: no-repeat; /* Evitar que la imagen se repita */
@@ -33,60 +32,88 @@ header {
   width: 450px;
   height: 30px;
 }
-img{
-  width: 50%;
+img {
+  width: 75%; /* Ocupa 3/4 del contenedor */
   height: auto;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  display: block; /* Asegura que el margen auto funcione */
 }
- 
-
 ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  gap: 1em;
-  padding: 1em;
-  list-style: none;
-  width: 100%;
+  list-style-type: none; /* Quita el estilo de lista predeterminado */
+  padding: 0; /* Quita el padding del contenedor ul */
+  margin: 0; /* Quita el margen del contenedor ul */
+  display: flex; /* Aplica flexbox al contenedor ul */
+  flex-wrap: wrap; /* Permite que los elementos li se envuelvan en varias filas */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
 }
 li {
-  background-color: rgba(94, 83, 83, 0.8); /* Rojo oscuro */
+  background-color: rgba(105, 50, 4, 0.836); /* Rojo oscuro */
+  color: #F1EBE3;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgb(77, 0, 0); /* Sombra oscura */
+  box-shadow: 0 1px 2px rgb(77, 0, 0); /* Sombra oscura */
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
-  margin: 15px; /* Se reduce el margen para ajustar las tarjetas */
-  padding: 1em;
+  flex-basis: calc(33.333% - 10px); /* Ajustar el ancho de las tarjetas */
+  margin: 5px; /* Reducir el margen para ajustar las tarjetas */
+  padding: 10px; /* Ajustar el padding para hacer las tarjetas más compactas */
   justify-content: space-between;
+  align-items: center; /* Centrar contenido horizontalmente */
+  font-size: 12px; /* Reducir el tamaño de la fuente */
+  line-height: 1.2; /* Ajustar la altura de línea */
   text-align: center; /* Alinear texto al centro */
+  box-sizing: border-box; /* Incluir el padding y borde en el tamaño total */
+}
+/* Asegura que haya tres columnas en pantallas más pequeñas */
+@media (max-width: 768px) {
+  li {
+    flex-basis: calc(50% - 10px); /* Ajustar el ancho de las tarjetas para dos columnas */
+  }
+}
+/* Asegura que haya una columna en pantallas aún más pequeñas */
+@media (max-width: 480px) {
+  li {
+    flex-basis: 100%; /* Ajustar el ancho de las tarjetas para una columna */
+  }
+}
+li:hover{
+  transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
+  background-color: #3b1801a1; /*CAMBIA COLOR al pasar el cursor */
+  color: #F8F0F0;
 }
 .flex-container {
   display: flex;
   justify-content: space-between; /* Distribuye los elementos uniformemente */
   align-items: center; /* Centra los elementos verticalmente */
-  background-color: #333; /* Gris oscuro */
-  padding: 4px 6px; /* Relleno interno */
-  border-radius: 2px; /* Bordes redondeados */
-  box-shadow: 0px 2px 4px #e40606fb; /* Sombra suave */
-  margin: 10px auto; /* Margen alrededor del contenedor de filtros */
-  width: 100%; /* Ocupa todo el ancho disponible */
+  background-color: #4E3105; /* Gris oscuro */
+  padding: 3px 2px; /* Relleno interno */
+  border-radius: 15px; /* Bordes redondeado */
+  box-shadow: 0px 2px 4px #e47106fb; /* Sombra suave */
+  margin: 5px auto; /* Margen alrededor del contenedor de filtros */
+  width: 83%; /* Ocupa todo el ancho disponible */
   max-width: 100%; /* Asegura que no sea más ancho que el padre */
   flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
 }
-.calculatores {
+.flex-container:hover{
+  transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
+  background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
+  color: #E6BC96;
+}
+/*.calculatores {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgba(128, 0, 0, 0.8); /* Rojo oscuro */
-  box-shadow: 0 4px 8px rgb(77, 0, 0); /* Sombra oscura */
-  width: 450px;
-}
+  margin: 2px auto;
+  padding: 1px;
+  border-radius: 40px;
+  background-color: rgba(143, 130, 125, 0.603); /* Rojo oscuro */
+  /*box-shadow: 0 4px 8px rgb(0, 77, 17);  Sombra oscura */
+  /*width: 450px;
+/*}
+.calculatores:hover{
+  transform: scale(1.25); /*al pasar el cursor camnia tamaño*/
+  /*background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
+/*}*/
 select {
   padding: 10px;
   border: 1px solid #EE0D0D;
@@ -95,6 +122,26 @@ select {
   background-color: #55524E; /* Color de fondo del select */
   color: #160202; /* Color del texto */
   margin-right: 10px;
+}
+/* Estilos específicos para el select con id calculationType */
+#calculationType {
+  border: 2px solid #ff5e00d2; /* Color del borde */
+  background-color: #eb25066b; /* Color de fondo */
+  color: #040505; /* Color del texto */
+  font-weight: bold;
+  box-shadow:0 4px 8px #d7ee0dc7;
+}
+/* Interactividad en hover */
+#calculationType:hover {
+  background-color: #FF0000;
+  color: white;
+  cursor: pointer;
+}
+/* Estilo para las opciones dentro del select */
+#calculationType option {
+  background-color: white;
+  color: #FF0000;
+  padding: 10px;
 }
 button {
   padding: 10px 20px;
@@ -110,16 +157,49 @@ button {
 button:hover {
   background-color: #FAF5F5; /*CAMBIA COLOR al pasar el cursor */
 }
+/* Estilo básico para el div */
 #result {
-  margin-top: 20px;
+  text-align: center;
+  width: 300px; /* Ancho fijo */
+  height: 50px; /* Alto fijo */
+  padding: 15px;
+  border: 2px solid #c7230694; /* Borde */
+  border-radius: 10px;
+  background-color: #94909085; /* Color de fondo */
+  color: #080606; /* Color del texto */
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Transición para suavizar los cambios */
+  overflow: auto; /* Para manejar contenido desbordante */
+  margin: 20px auto; /* Centrado horizontalmente */
+  box-shadow: 0 4px 8px rgba(218, 6, 6, 0.568); /* Sombra */
+}
+/* Interactividad en hover */
+#result:hover {
+  background-color: #ce060691;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  transform: scale(1.25);
+}
+/*#result {
+  margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra
   text-align: center;
-  font-size: 16px;
-  color: #FF0000; /* Color del texto */
-}
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF8F4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  animation: fadeIn 1s forwards;
+  transition: transform 0.3s ease;
+}*/
+#result:hover {
+  transform: scale(1.15);
+  background-color: #af999994;
+}*/
 footer{
   background-color: #333; /* Gris oscuro */
   text-align: center;
