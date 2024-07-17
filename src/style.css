@@ -1,23 +1,25 @@
-body{
-  background-image: url('https://images3.alphacoders.com/646/646207.jpg');
-  background-size: cover; /* Para cubrir toda la pantalla */
-  background-position: center; /* Para centrar la imagen */
-  background-repeat: no-repeat; /* Evitar que la imagen se repita */
-  background-attachment: fixed; /* Hacer que el fondo se mantenga fijo al hacer scroll */
+body {
+  background-image: url('https://img.freepik.com/foto-gratis/fondo-picante-chiles_72772-17295.jpg?size=626&ext=jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
-  font-family: Arial, sans-serif
+  font-family: 'Merriweather', serif; /* Fuente para el cuerpo del texto */
 }
-h1{
-  font-size: 24px; /* Tamaño de la fuente */
-  color: #E6BC96; /* Color del texto */
-  text-align: center; /* Alinear el texto al centro */
-  margin: 0; /* Quitar el margen predeterminado */
-  padding: 0; /* Quitar el relleno predeterminado */
-  font-family: 'Georgia', serif; /* Familia de fuentes */
-  font-weight: bold; /* Grosor de la fuente */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
-  letter-spacing: 1px; /* Espaciado entre letras */
+
+h1 {
+  font-size: 24px;
+  color: #E6BC96;
+  text-align: center;
+  margin: 25px 0; /* Añadir margen para separación */
+  padding: 0;
+  font-family: 'Raleway', sans-serif; /* Fuente para los encabezados */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
 }
+
 header {
   color: #E6BC96;
   background: hsla(0, 100%, 18%, 0.849);
@@ -25,186 +27,184 @@ header {
   box-shadow: 0px 2px 8px 0px #ee7777f1;
   border-radius: 10px;
   padding: 10px;
-  padding: 10px;
-  font-size: 12px; /* Tamaño de la fuente */
-  text-align: center; /* Alinear texto al centro */
-  margin: 20px auto; /* Centrar horizontalmente */
+  font-size: 12px;
+  text-align: center;
+  margin: 20px auto;
   width: 450px;
-  height: 30px;
+  height: auto; /* Ajustar la altura automáticamente */
 }
-img {
-  width: 75%; /* Ocupa 3/4 del contenedor */
-  height: auto;
-  margin: 0 auto; /* Centra la imagen horizontalmente */
-  display: block; /* Asegura que el margen auto funcione */
-}
+
 ul {
-  list-style-type: none; /* Quita el estilo de lista predeterminado */
-  padding: 0; /* Quita el padding del contenedor ul */
-  margin: 0; /* Quita el margen del contenedor ul */
-  display: flex; /* Aplica flexbox al contenedor ul */
-  flex-wrap: wrap; /* Permite que los elementos li se envuelvan en varias filas */
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 li {
-  background-color: rgba(105, 50, 4, 0.836); /* Rojo oscuro */
+  background-color: rgba(105, 50, 4, 0.836);
   color: #F1EBE3;
   border-radius: 10px;
-  box-shadow: 0 1px 2px rgb(77, 0, 0); /* Sombra oscura */
+  box-shadow: 0 1px 2px rgb(77, 0, 0);
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  flex-basis: calc(33.333% - 10px); /* Ajustar el ancho de las tarjetas */
-  margin: 5px; /* Reducir el margen para ajustar las tarjetas */
-  padding: 10px; /* Ajustar el padding para hacer las tarjetas más compactas */
+  flex-basis: calc(23% - 10px); /* Reducir el tamaño de las tarjetas */
+  margin: 10px 5px; /* Añadir margen para separación */
+  padding: 15px; /* Incrementar el padding para espacio interior */
   justify-content: space-between;
-  align-items: center; /* Centrar contenido horizontalmente */
-  font-size: 12px; /* Reducir el tamaño de la fuente */
-  line-height: 1.2; /* Ajustar la altura de línea */
-  text-align: center; /* Alinear texto al centro */
-  box-sizing: border-box; /* Incluir el padding y borde en el tamaño total */
+  align-items: center;
+  font-size: 14px; /* Ajustar tamaño de la fuente */
+  line-height: 1.5; /* Ajustar altura de línea para legibilidad */
+  text-align: center;
+  box-sizing: border-box;
 }
-/* Asegura que haya tres columnas en pantallas más pequeñas */
-@media (max-width: 768px) {
-  li {
-    flex-basis: calc(50% - 10px); /* Ajustar el ancho de las tarjetas para dos columnas */
-  }
-}
-/* Asegura que haya una columna en pantallas aún más pequeñas */
-@media (max-width: 480px) {
-  li {
-    flex-basis: 100%; /* Ajustar el ancho de las tarjetas para una columna */
-  }
-}
-li:hover{
-  transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
-  background-color: #3b1801a1; /*CAMBIA COLOR al pasar el cursor */
+
+li:hover {
+  transform: scale(1.05);
+  background-color: #3b1801a1;
   color: #F8F0F0;
 }
+
+li img {
+  width: 100%; /* Ajustar el ancho al contenedor */
+  height: 200px; /* Ajustar la altura fija */
+  object-fit: cover; /* Asegurar que la imagen se recorte adecuadamente */
+}
+
+li .description {
+  text-align: justify; /* Justificar el texto */
+  margin-top: 10px; /* Margen superior para separación */
+}
+
+li .name {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px; /* Margen superior para separación */
+  font-weight: bold;
+  font-size: 16px;
+  border-top: 1px solid #F1EBE3; /* Línea divisoria */
+  padding-top: 10px; /* Espaciado para la línea divisoria */
+}
+
 .flex-container {
   display: flex;
-  justify-content: space-between; /* Distribuye los elementos uniformemente */
-  align-items: center; /* Centra los elementos verticalmente */
-  background-color: #4E3105; /* Gris oscuro */
-  padding: 3px 2px; /* Relleno interno */
-  border-radius: 15px; /* Bordes redondeado */
-  box-shadow: 0px 2px 4px #e47106fb; /* Sombra suave */
-  margin: 5px auto; /* Margen alrededor del contenedor de filtros */
-  width: 83%; /* Ocupa todo el ancho disponible */
-  max-width: 100%; /* Asegura que no sea más ancho que el padre */
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4E3105;
+  padding: 10px; /* Incrementar el padding */
+  border-radius: 15px;
+  box-shadow: 0px 2px 4px #e47106fb;
+  margin: 20px auto; /* Incrementar el margen */
+  width: 83%;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
-.flex-container:hover{
-  transform: scale(1.05); /*al pasar el cursor camnia tamaño*/
-  background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
+
+.flex-container:hover {
+  transform: scale(1.05);
+  background-color: #f5010194;
   color: #E6BC96;
 }
-/*.calculatores {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2px auto;
-  padding: 1px;
-  border-radius: 40px;
-  background-color: rgba(143, 130, 125, 0.603); /* Rojo oscuro */
-  /*box-shadow: 0 4px 8px rgb(0, 77, 17);  Sombra oscura */
-  /*width: 450px;
-/*}
-.calculatores:hover{
-  transform: scale(1.25); /*al pasar el cursor camnia tamaño*/
-  /*background-color: #f5010194; /*CAMBIA COLOR al pasar el cursor */
-/*}*/
+
 select {
   padding: 10px;
   border: 1px solid #EE0D0D;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #55524E; /* Color de fondo del select */
-  color: #160202; /* Color del texto */
+  background-color: #55524E;
+  color: #160202;
   margin-right: 10px;
 }
-/* Estilos específicos para el select con id calculationType */
+
 #calculationType {
-  border: 2px solid #ff5e00d2; /* Color del borde */
-  background-color: #eb25066b; /* Color de fondo */
-  color: #040505; /* Color del texto */
+  border: 2px solid #ff5e00d2;
+  background-color: #eb25066b;
+  color: #040505;
   font-weight: bold;
-  box-shadow:0 4px 8px #d7ee0dc7;
+  box-shadow: 0 4px 8px #d7ee0dc7;
 }
-/* Interactividad en hover */
+
 #calculationType:hover {
   background-color: #FF0000;
   color: white;
   cursor: pointer;
 }
-/* Estilo para las opciones dentro del select */
+
 #calculationType option {
   background-color: white;
   color: #FF0000;
   padding: 10px;
 }
+
 button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #F73707; /* Naranja */
-  color: #0F0707; /* Color del texto */
+  background-color: #F73707;
+  color: #0F0707;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(228, 5, 5, 0.658); /* Sombra */
+  box-shadow: 0 4px 8px rgba(228, 5, 5, 0.658);
   transition: background-color 0.3s ease;
 }
+
 button:hover {
-  background-color: #FAF5F5; /*CAMBIA COLOR al pasar el cursor */
+  background-color: #FAF5F5;
 }
-/* Estilo básico para el div */
+
 #result {
   text-align: center;
-  width: 300px; /* Ancho fijo */
-  height: 50px; /* Alto fijo */
+  width: 300px;
+  height: 50px;
   padding: 15px;
-  border: 2px solid #c7230694; /* Borde */
+  border: 2px solid #c7230694;
   border-radius: 10px;
-  background-color: #94909085; /* Color de fondo */
-  color: #080606; /* Color del texto */
+  background-color: #94909085;
+  color: #080606;
   font-size: 20px;
   font-weight: bold;
-  transition: all 0.3s ease; /* Transición para suavizar los cambios */
-  overflow: auto; /* Para manejar contenido desbordante */
-  margin: 20px auto; /* Centrado horizontalmente */
-  box-shadow: 0 4px 8px rgba(218, 6, 6, 0.568); /* Sombra */
+  transition: all 0.3s ease;
+  overflow: auto;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(218, 6, 6, 0.568);
 }
-/* Interactividad en hover */
+
 #result:hover {
   background-color: #ce060691;
   color: rgb(235, 235, 235);
   cursor: pointer;
   transform: scale(1.25);
 }
-/*#result {
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra
+
+footer {
+  background-color: #333;
   text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  color: #FFF8F4;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  opacity: 1;
-  animation: fadeIn 1s forwards;
-  transition: transform 0.3s ease;
-}*/
-#result:hover {
-  transform: scale(1.15);
-  background-color: #af999994;
-}*/
-footer{
-  background-color: #333; /* Gris oscuro */
-  text-align: center;
-  color: #E6510E; /* Naranja */
+  color: #E6510E;
   padding: 10px 0;
   width: 100%;
-  margin-top: auto; /* Empuja el footer al final */
+  margin-top: auto;
 }
+
+/* Clase específica para la descripción larga */
+.long-description {
+  display: block;
+}
+/* Media queries para dispositivos móviles y tablets */
+@media screen and (max-width: 768px) {
+  .flex-container {
+    width: 100%; /* Ajuste completo */
+  }
+
+  ul {
+    flex-direction: column; /* Tarjetas en una columna */
+  }
+
+  li {
+    flex-basis: 100%; /* Tarjetas ocupan toda la anchura */
+    margin: 10px 0; /* Ajuste de margen para una sola columna */
+  }
+}
+

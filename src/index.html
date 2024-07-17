@@ -1,9 +1,10 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Dataverse</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <script src="main.js" type="module"></script>
@@ -20,7 +21,8 @@
         <option value="Postres">Postres</option>
         <option value="Salsa y guarniciones">Salsas y Guarniciones</option>
       </select>
-
+      
+      
       <label for="filtro-picante">NIVEL DE PICANTE</label>
       <select data-testid="select-filterPicante" name="picante" id="filtro-picante">
         <option value="Alto"> 🌶️🌶️🌶️ </option>
@@ -34,12 +36,11 @@
         <option value="desc">Z - A</option>
       </select>
     </div>
-
     <div id="root"></div>
     <div id="resultado-container"></div>
 
     <button data-testid="button-clear">Limpiar Pedido</button>
-
+      
     <label for="calculationType">Tipo de Cálculo</label>
     <select id="calculationType" name="calculationType">
       <option value="averageSpiciness">Promedio de picante</option>
@@ -63,4 +64,3 @@
     </footer>
   </body>
 </html>
-
