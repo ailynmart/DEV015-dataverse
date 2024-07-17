@@ -4,7 +4,7 @@ export default[
     "id": "aguachile-verde",
     "name": "Aguachile Verde",
     "shortDescription": "Mariscos frescos en salsa de chile serrano..",
-    "description": " Consiste en mariscos crudos, principalmente camarones, se marinan en una mezcla de jugo de limón fresco, chile verde picado (como chile serrano o jalapeño) y sal. La acidez del limón cocina ligeramente los mariscos mientras que el chile le proporciona un sabor picante característico. Además de los camarones, el aguachile suele incluir acompañamientos como rodajas de pepino, cebolla morada y aguacate, que complementan y equilibran los sabores intensos de la salsa. Este platillo se sirve frío y es apreciado por su frescura, intensidad de sabores y la combinación única de ingredientes frescos.",
+    "description": "Consiste en mariscos crudos, principalmente camarones, se marinan en una mezcla de jugo de limón fresco, chile verde picado (como chile serrano o jalapeño) y sal. La acidez del limón cocina ligeramente los mariscos mientras que el chile le proporciona un sabor picante característico. Además de los camarones, el aguachile suele incluir acompañamientos como rodajas de pepino, cebolla morada y aguacate, que complementan y equilibran los sabores intensos de la salsa. Este platillo se sirve frío y es apreciado por su frescura, intensidad de sabores y la combinación única de ingredientes frescos.",
     "imageUrl": "https://www.chilipeppermadness.com/wp-content/uploads/2021/08/Aguachile-Recipe1.jpg",
     "facts": {
       "placeOrigen": "Sinaloa",
