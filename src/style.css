@@ -11,27 +11,28 @@ body{
 }
 h1{
   font-size: 24px; /* Tamaño de la fuente */
-  color: #e6bc96; /* Color del texto */
+  color: #E6BC96; /* Color del texto */
   text-align: center; /* Alinear el texto al centro */
   margin: 0; /* Quitar el margen predeterminado */
   padding: 0; /* Quitar el relleno predeterminado */
   font-family: 'Georgia', serif; /* Familia de fuentes */
   font-weight: bold; /* Grosor de la fuente */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
-  letter-spacing: 10px; /* Espaciado entre letras */
+  letter-spacing: 1px; /* Espaciado entre letras */
 }
 
 header {
-  color: #e6bc96;
+  color: #E6BC96;
   background: hsla(0, 100%, 18%, 0.849);
   border: 1px solid;
   box-shadow: 0px 2px 8px 0px #ee7777f1;
   border-radius: 10px;
   padding: 10px;
+  padding: 10px;
   font-size: 12px; /* Tamaño de la fuente */
   text-align: center; /* Alinear texto al centro */
   margin: 20px auto; /* Centrar horizontalmente */
-  width: 450px; 
+  width: 450px;
   height: 30px;
 }
 
@@ -50,7 +51,6 @@ ul {
   flex-wrap: wrap; /* Permite que los elementos li se envuelvan en varias filas */
   justify-content: space-between; /* Distribuye el espacio entre los elementos */
 }
-
 li {
   background-color: rgba(105, 50, 4, 0.836); /* Rojo oscuro */
   color: #f1ebe3;
@@ -126,10 +126,10 @@ li:hover{
 
 select {
   padding: 10px;
-  border: 1px solid #ee0d0d;
+  border: 1px solid #EE0D0D;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #55524e; /* Color de fondo del select */
+  background-color: #55524E; /* Color de fondo del select */
   color: #160202; /* Color del texto */
   margin-right: 10px;
 }
@@ -160,15 +160,14 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 14px;
-  background-color: #f73707; /* Naranja */
-  color: #0f0707; /* Color del texto */
+  background-color: #F73707; /* Naranja */
+  color: #0F0707; /* Color del texto */
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(228, 5, 5, 0.658); /* Sombra */
   transition: background-color 0.3s ease;
 }
-
 button:hover {
-  background-color: #faf5f5; /*CAMBIA COLOR al pasar el cursor */
+  background-color: #FAF5F5; /*CAMBIA COLOR al pasar el cursor */
 }
 /* Estilo básico para el div */
 #result {
@@ -200,9 +199,9 @@ button:hover {
 /*#result {
   margin-top: 10px;
   padding: 10px;
-  border-radius: 3rem;
-  background-color: rgba(134, 15, 15, 0.281);
-  box-shadow:  8px rgba(179, 11, 11, 0.644);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
   text-align: center;
   font-size: 24px;
   font-weight: bold;
@@ -220,7 +219,7 @@ button:hover {
 footer{
   background-color: #333; /* Gris oscuro */
   text-align: center;
-  color: #e6510e; /* Naranja */
+  color: #E6510E; /* Naranja */
   padding: 10px 0;
   width: 100%;
   margin-top: auto; /* Empuja el footer al final */
