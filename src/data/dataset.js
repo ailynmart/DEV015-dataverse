@@ -1,4 +1,4 @@
-export default [
+export default[
   {
     //PLATOS PRINCIPALES (10)
     "id": "aguachile-verde",
@@ -151,7 +151,7 @@ export default [
       "placeOrigen": "Mexico,Mexico",
       "nivelSpicy": "Alto",
       "typeOfMeat": "Cerdo",
-      "mainField": " Sopa"
+      "mainField": " Sopas y caldos"
     },
    
   },
@@ -166,7 +166,7 @@ export default [
       "placeOrigen": "Tlalpan",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "Pollo",
-      "mainField": "Sopa"
+      "mainField": "Sopas y caldos"
     },
    
   },
@@ -180,7 +180,7 @@ export default [
       "placeOrigen": "Mexico,Mexico",
       "nivelSpicy": "Alto",
       "typeOfMeat": "Res",
-      "mainField": "Caldo"
+      "mainField": "Sopas y caldos"
     },
     
   },
@@ -197,9 +197,7 @@ export default [
       "typeOfMeat": "Pollo",
       "mainField": "Antojos, Botanas"
     },
-    "extraInfo": {
-      "imageSource": "---"
-    }
+   
   },
   
   {
@@ -225,6 +223,7 @@ export default [
     "facts": {
       "placeOrigen": "Mexico,Mexico",
       "nivelSpicy": "Bajo",
+      "typeOfMeat": "N/A",
       "mainField": "Antojos, Botanas"
     },
    
@@ -241,9 +240,7 @@ export default [
       "typeOfMeat": "Camarón",
       "mainField": "Antojitos y Botanas"
     },
-    "extraInfo": {
-      "imageSource": ""
-    }
+    
   },
   //SALSAS Y GUANICIONES (4)
   {
@@ -265,7 +262,7 @@ export default [
     "id": "Salsa-verde",
     "name": "Salsa verde",
     "shortDescription": "Salsa verde mexicana, fresca y picante, hecha con tomatillos, chile serrano, cilantro y cebolla, perfecta para tacos y enchiladas.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
+    "description": "La salsa verde es una salsa clásica de la gastronomía mexicana, apreciada por su frescura y su vibrante color verde. Se prepara con tomatillos, que aportan una acidez característica, chiles serranos o jalapeños para el toque picante, cilantro, cebolla y ajo. Todos los ingredientes se asan ligeramente y se muelen juntos para crear una salsa de textura suave y sabor fresco. Es muy versátil y se usa comúnmente para acompañar tacos, enchiladas, chilaquiles y otros antojitos, ofreciendo un equilibrio perfecto entre acidez y picante",
     "imageUrl": "https://laopinion.com/wp-content/uploads/sites/3/2020/04/canva-mexican-salsa-verde.jpg",
     "facts": {
       "placeOrigen": "Mexico",
@@ -278,7 +275,7 @@ export default [
   
   {
     "id": "Guacamole-guarnicion",
-    "name": "Guacamoles",
+    "name": "Guacamole",
     "shortDescription": "Guacamole mexicano, cremoso y fresco, hecho con aguacate, tomate, cebolla, cilantro, chile y limón, ideal para acompañar antojitos.",
     "description": "El guacamole es un platillo icónico de la cocina mexicana, conocido por su textura cremosa y su sabor fresco. Se prepara con aguacates maduros triturados, mezclados con tomate picado, cebolla, cilantro, chile (jalapeño o serrano), y jugo de limón, que añade un toque de acidez. Esta combinación de ingredientes crea un dip versátil y delicioso, perfecto para acompañar tortillas de maíz, tacos, nachos y otros antojitos. El guacamole no solo es sabroso, sino también nutritivo, destacando por sus grasas saludables y su contenido de vitaminas y minerales esenciales.",
     "imageUrl": "https://www.maricruzavalos.com/wp-content/uploads/2010/09/mexican-authentic-guacamole-recipe.jpg",
@@ -288,9 +285,8 @@ export default [
       "typeOfMeat": "N/a",
       "mainField": "Salsa y guarniciones"
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
+   
+  
   },
   {
     "id": "Pico-de-gallo",
@@ -331,7 +327,7 @@ export default [
       "placeOrigen": "Mexico",
       "nivelSpicy": "Moderado",
       "typeOfMeat": "N/a",
-      "mainField": "Salsa y guarniciones" 
+      "mainField": "Postres" 
     },
     
   },
@@ -340,12 +336,13 @@ export default [
     "id": "micheladas",
     "name": "Micheladas",
     "shortDescription": "Refrescante bebida de cerveza mezclada con limón, salsas y chile.Refrescante bebida de cerveza mezclada con limón, salsas y chile.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
+    "description": "La michelada es una popular bebida mexicana que combina cerveza con una mezcla de jugo de limón, salsas como la inglesa y la Tabasco, y diversas especias y condimentos, como sal, pimienta y salsa Maggi. Se sirve en un vaso escarchado con sal y a menudo con un toque de chile en polvo en el borde. Esta mezcla crea una bebida refrescante, ligeramente picante y ácida, ideal para los días calurosos y perfecta para acompañar mariscos, carnes asadas y botanas. La michelada es muy versátil y puede adaptarse al gusto individual con diferentes combinaciones de ingredientes.",
     "imageUrl": "https://i0.wp.com/www.chicanoeats.com/wp-content/uploads/2019/05/IMG_9275-819x1024.jpg",
     "facts": {
       "placeOrigen": "Mexico,Mexico ",
       "nivelSpicy": "Alto",
-      "mainField": "Bebidas Picantes"
+      "mainField": "Bebidas Picantes",
+      "typeOfMeat": "N/A" // Añadir esto si no aplica
     },
     
   }

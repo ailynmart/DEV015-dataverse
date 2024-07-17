@@ -7,49 +7,61 @@
   </head>
   <body>
     <script src="main.js" type="module"></script>
-    
     <header>
-      <h1>COMIDAS TIPICAS MEXICANAS PICANTES</h1>
+      <h1>MEXICO PICANTE</h1>
     </header>
+    <div class="flex-container">
+      <label for="filtro-pedido">TIPO DE PEDIDO</label>
+      <select data-testid="select-filter" name="pedido" id="filtro-pedido">
+        <option value="Bebidas Picantes">Bebidas</option>
+        <option value="Plato Principal">Plato Principal</option>
+        <option value="Sopas y Caldos">Sopas y Caldos</option>
+        <option value="Antojitos y Botanas">Antojitos y Botanas</option>
+        <option value="Postres">Postres</option>
+        <option value="Salsa y guarniciones">Salsas y Guarniciones</option>
+      </select>
 
-    <nav id="root" > 
-      <ul>
-        <li>
+      <label for="filtro-picante">NIVEL DE PICANTE</label>
+      <select data-testid="select-filterPicante" name="picante" id="filtro-picante">
+        <option value="Alto"> 🌶️🌶️🌶️ </option>
+        <option value="Medio"> 🌶️🌶️</option>
+        <option value="Bajo">🌶️</option>
+      </select>
 
-        </li>
-      </ul>
-    </nav>
+      <label for="filtro-alfabetica"> Ordenar de manera </label>
+      <select data-testid="select-sort" name="alfabetica" id="filtro-alfabetica">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
+    </div>
 
-    <label for="filtrar-tipo-de-pedido">FILTAR POR TIPO DE PEDIO</label>
-    <select data-testid="selec-filter" name="tipo">
-      <option value="principal">Plato Principal</option>
-      <option value="sopas">Sopas y Caldos</option>
-      <option value="antojos">Antojitos y Botanas</option>
-      <option value="bebidas">Bebidas</option>
-      <option value="postres">Postres</option>
-      <option value="salsas">Salsas y Guarniciones</option>
+    <div id="root"></div>
+    <div id="resultado-container"></div>
+
+    <button data-testid="button-clear">Limpiar Pedido</button>
+
+    <label for="calculationType">Tipo de Cálculo</label>
+    <select id="calculationType" name="calculationType">
+      <option value="averageSpiciness">Promedio de picante</option>
+      <option value="hottestDish">Platillo más picante</option>
+      <option value="mildestDish">Platillo menos picante</option>
+      <option value="spicinessLevels">Niveles de picante</option>
     </select>
 
-    <label for="filtrar-por-nivel-de-picante">FILTRAR POR NIVEL DE PICANTE</label>
-    <select data-testid="selec-filter" name="picante">
-      <option value="alto"> Alto </option>
-      <option value="medio"> Medio</option>
-      <option value="bajo">Bajo</option>
-    </select>
+    <button id="calculateButton">Calcular</button>
+    <div id="result"></div>
 
-  <label for="ordenar-de-manera"> Ordenar de manera </label>
-  <select data-testid="select-sort" name="alfabetica">
-    <option value="asc">A - Z</option>
-    <option value="desc">Z - A</option>
-    <!-- creo  que debe ir uno en vacio osea que no ordene nada siento que se quedaria en asd o desc una de eso a la fuerza -->
+<!--checar esto-->
+    <ul id="data-list">
+      <!-- Ejemplo de elementos de datos, asegúrate de que tus datos se rendericen de esta manera -->
+      <li itemtype="https://schema.org/FoodEstablishment">Tacos al pastor - Picor: Bajo</li>
+      <li itemtype="https://schema.org/FoodEstablishment">Chiles en nogada - Picor: Medio</li>
+      <li itemtype="https://schema.org/FoodEstablishment">Aguachile - Picor: Alto</li>
+    </ul>
 
-  </select>
-    
-    
-    <button data-testid="button clear">Limpiar Orden y Filtros</button>
-   
-    <footer> 
-      <p> SALA DEV 15 Derechos Reservados &copy; 2024</p>
+    <footer>
+      <p>BRIGLYN</p>
     </footer>
   </body>
 </html>
+
