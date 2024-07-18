@@ -2,24 +2,23 @@ import { filterData, sortData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
-// Selección del elemento #root 
-const rootH = document.querySelector("#root");   //rootH es una referencia al elemento del DOM con el id root. Este elemento servirá como el contenedor principal donde se renderizarán los elementos dinámicos.
 
-// Renderizado inicial de los datos
-rootH.appendChild(renderItems(data));  //Se utiliza renderItems(data) para generar y mostrar inicialmente todos los elementos de data en el elemento #root.
+const rootH = document.querySelector("#root");   
+
+
+rootH.appendChild(renderItems(data));  
 
 let filtrosPlato = data;
 
-// Controladores de eventos para los selectores
-const filtroPedido = document.querySelector('[data-testid="select-filter"]');     //filtrosPlato se inicializa con data, lo que permite filtrar y ordenar los datos base inicialmente cargados.
-const filtroPicante = document.querySelector('[data-testid="select-filterPicante"]');      //Se obtienen referencias a los elementos del DOM que corresponden a los selectores (filtroPedido, filtroPicante, filtroAlfabetica, botonLimpiar) utilizando atributos data-testid para identificarlos fácilmente.
+const filtroPedido = document.querySelector('[data-testid="select-filter"]');     
+const filtroPicante = document.querySelector('[data-testid="select-filterPicante"]');      
 const filtroAlfabetica = document.querySelector('[data-testid="select-sort"]');
 const botonLimpiar = document.querySelector('[data-testid="button-clear"]');
 
-filtroPedido.addEventListener("change", (e) => {          //Cuando cambia el valor de filtroPedido (selector de tipo de plato), se obtiene el nuevo valor seleccionado (platoPrincipal).
-  const platoPrincipal = e.target.value;                 //Se filtran los datos originales (data) utilizando filterData basado en el campo "mainField" y el valor seleccionado.
+filtroPedido.addEventListener("change", (e) => {          
+  const platoPrincipal = e.target.value;                
   filtrosPlato = filterData(data, "mainField", platoPrincipal);     
-  rootH.innerHTML = "";     //Se limpia el contenido actual de rootH y se vuelve a renderizar (appendChild) los elementos filtrados utilizando renderItems.
+  rootH.innerHTML = "";     
   rootH.appendChild(renderItems(filtrosPlato));
 });
 
@@ -42,13 +41,12 @@ botonLimpiar.addEventListener("click", () => {
   rootH.appendChild(renderItems(data));
 });
 
-//son funciones importadas desde dataFunctions.js. Estas funciones realizan diversos cálculos sobre los datos de platos picantes.
+
 import { computeAverageSpiciness, computeHottestDish, computeMildestDish, computeSpicinessLevels} from './dataFunctions.js';
-//es una función importada desde view.js, la cual actualiza la interfaz de usuario con los resultados de los cálculos.
+
 import { updateResult } from './view.js';
 
-// Datos de ejemplo, reemplaza esto con tus datos reales
-//spicyDishes es un arreglo que contiene objetos, cada uno representando un platillo con su nombre y nivel de picante (spiciness).
+
 const spicyDishes = [
   { name: 'Aguachile Verde', spiciness: 8 },
   { name: 'Mole Negro', spiciness: 6 },
@@ -77,25 +75,24 @@ const spicyDishes = [
  
 ];
 
-// Seleccionar elementos del DOM
 
-const select = document.querySelector('#calculationType'); //selecciona el menú desplegable (con id calculationType) que permite al usuario elegir el tipo de cálculo que desea realizar.
-const button = document.querySelector('#calculateButton'); //selecciona el botón (con id calculateButton) que, al hacer clic, desencadenará el cálculo.
 
-// Vincular eventos a los elementos del DOM
-button.addEventListener('click', () => {  //Aquí se añade un event listener al botón que escucha por un clic y ejecuta la función provista cuando se hace clic.
-  const calculationType = select.value; //obtiene el valor seleccionado en el menú desplegable.
-  let result; // declara una variable result que almacenara el resultado del calculo. 
-  if (calculationType === 'averageSpiciness') { //Dependiendo del valor de calculationtype se ejecuta la siguiente funcion para calcular el resultado
-    result = computeAverageSpiciness(spicyDishes); //   Si calculationType es 'averageSpiciness', se llama a computeAverageSpiciness(spicyDishes) y se almacena el resultado en result.
-  } else if (calculationType === 'hottestDish') { //Si calculationType es 'hottestDish', se llama a computeHottestDish(spicyDishes).name para obtener el nombre del platillo más picante.
-    result = computeHottestDish(spicyDishes).name; //Si calculationType es 'mildestDish', se llama a computeMildestDish(spicyDishes).name para obtener el nombre del platillo menos picante.
-  } else if (calculationType === 'mildestDish') {  // Si calculationType es 'spicinessLevels', se llama a computeSpicinessLevels(spicyDishes) y se construye una cadena con los niveles de picante.
+const select = document.querySelector('#calculationType');
+const button = document.querySelector('#calculateButton'); 
+
+button.addEventListener('click', () => { 
+  const calculationType = select.value; 
+  let result;
+  if (calculationType === 'averageSpiciness') { 
+    result = computeAverageSpiciness(spicyDishes); 
+  } else if (calculationType === 'hottestDish') { 
+    result = computeHottestDish(spicyDishes).name; 
+  } else if (calculationType === 'mildestDish') {  
     result = computeMildestDish(spicyDishes).name;  
   } else if (calculationType === 'spicinessLevels') {
     const levels = computeSpicinessLevels(spicyDishes);
     result = `Picante: ${levels.mild}, Medio Picante: ${levels.medium}, Muy Picante: ${levels.hot}`; 
   }
-  updateResult(result); //Finalmente, updateResult(result); se llama para actualizar la interfaz de usuario con el resultado del cálculo.
+  updateResult(result); 
 });
 
