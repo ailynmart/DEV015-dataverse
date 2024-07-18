@@ -5,20 +5,19 @@ import data from './data/dataset.js';
 
 const rootH = document.querySelector("#root");   
 
-
 rootH.appendChild(renderItems(data));  
-
 let filtrosPlato = data;
 
-const filtroPedido = document.querySelector('[data-testid="select-filter"]');     
+// Controladores de eventos para los selectores
+const filtroPedido = document.querySelector('[data-testid="select-filter"]');    
 const filtroPicante = document.querySelector('[data-testid="select-filterPicante"]');      
 const filtroAlfabetica = document.querySelector('[data-testid="select-sort"]');
 const botonLimpiar = document.querySelector('[data-testid="button-clear"]');
 
 filtroPedido.addEventListener("change", (e) => {          
-  const platoPrincipal = e.target.value;                
+  const platoPrincipal = e.target.value;                 
   filtrosPlato = filterData(data, "mainField", platoPrincipal);     
-  rootH.innerHTML = "";     
+  rootH.innerHTML = "";    
   rootH.appendChild(renderItems(filtrosPlato));
 });
 
@@ -77,12 +76,13 @@ const spicyDishes = [
 
 
 
-const select = document.querySelector('#calculationType');
+const select = document.querySelector('#calculationType'); 
 const button = document.querySelector('#calculateButton'); 
 
-button.addEventListener('click', () => { 
+// Vincular eventos a los elementos del DOM
+button.addEventListener('click', () => {  
   const calculationType = select.value; 
-  let result;
+  let result;  
   if (calculationType === 'averageSpiciness') { 
     result = computeAverageSpiciness(spicyDishes); 
   } else if (calculationType === 'hottestDish') { 

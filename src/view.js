@@ -1,7 +1,8 @@
 export const renderItems = (data) => {
-  // Verifica si los datos proporcionados son un array
+  
   if (!Array.isArray(data)) {
     console.error('Los datos proporcionados no son un array');
+    return null; 
     return null; 
   }
 
@@ -32,8 +33,10 @@ export const renderItems = (data) => {
  
   const ul = document.createElement('ul');
  
+ 
   itemsHTML.forEach(item => ul.appendChild(item));
 
+  
   
   return ul;
 };
@@ -42,4 +45,5 @@ export const renderItems = (data) => {
 export function updateResult(result) {
   document.querySelector('#result').textContent = result;
 }
+
 
