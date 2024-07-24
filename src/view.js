@@ -3,7 +3,7 @@ export const renderItems = (data) => {
   if (!Array.isArray(data)) {
     console.error('Los datos proporcionados no son un array');
     return null; 
-    return null; 
+    
   }
 
   
